@@ -1,0 +1,62 @@
+
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>AVCHD &#8211; Vision, Motion, Code</title>
+	<atom:link href="/tag/avchd/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Tue, 18 Aug 2020 19:03:38 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
+		<title>AVCHD Import to Mac Issues and Solution</title>
+		<link>/avchd-mac-import-solution/</link>
+					<comments>/avchd-mac-import-solution/#respond</comments>
+		
+		<dc:creator><![CDATA[CY Xu]]></dc:creator>
+		<pubDate>Thu, 21 Aug 2014 11:36:27 +0000</pubDate>
+				<category><![CDATA[Blog Posts]]></category>
+		<category><![CDATA[AVCHD]]></category>
+		<category><![CDATA[GH2]]></category>
+		<guid isPermaLink="false">http://h1ppy.com/?p=3713</guid>
+
+					<description><![CDATA[The Issues &#8211; Dynamic Range, as you can tell quite easily from the screen grabs of the footage transcoded using different tools, the 5DtoRGB largely maintained the dynamic range that the GH2 sensor (using a Flow Motion V2 hacked firmware in this case) captured. While the straight output from FCPX or ClipWrap resulted in a &#8220;clipped&#8221; dynamic range, [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<p><strong>The Issues &#8211;</strong></p>
+<p>Dynamic Range, as you can tell quite easily from the screen grabs of the footage transcoded using different tools, the <a href="http://rarevision.com/rarevision.com/5dtorgb/" target="_blank" rel="noopener noreferrer">5DtoRGB</a> largely maintained the dynamic range that the GH2 sensor (using a <a href="http://www.personal-view.com/talks/discussion/3337/gh2-flow-motion-v2-100mbps-fast-action-performance-reliability-for-class-10-sd-cards/p1" target="_blank" rel="noopener noreferrer">Flow Motion V2</a> hacked firmware in this case) captured. While the straight output from FCPX or ClipWrap resulted in a &#8220;clipped&#8221; dynamic range, losing details in dark areas.</p>
+<p>Cropping, scroll through the shots you&#8217;ll find the straight output and 5DtoRGB output managed to keep the footage uncropped, while ClipWrap crops the image with different codecs.</p>
+<p>Don&#8217;t be entangled with the reason why this is happening, it&#8217;s a long time glitch in QuickTime codec and Apple hasn&#8217;t provided an official solution.</p>
+<p><strong>The Solution &#8211;</strong></p>
+<p>Transcoding with the <a href="http://rarevision.com/rarevision.com/5dtorgb/" target="_blank" rel="noopener noreferrer">5DtoRGB</a> before editing.<br />
+Lite version free but limits to one file at a time. Batch version costs $49.99 in App Store.</p>
+<p>Also this post says ITU-R BT.601 is the correct Decoding Matrix to choose, as comparison, in the 2nd and 3rd pics above, we noticed that the dark area in BT.709 profile are incorrectly exposed and pixelated.</p>
+<p>According to 5DtoRGB website &#8212;</p>
+<p>&#8220;5DtoRGB takes a <em>no-compromise</em> approach to quality. 5DtoRGB bypasses QuickTime decoding altogether, works internally at 10 bits and uses your video card&#8217;s GPU for its YCbCr to RGB conversion. It also recognizes Canon&#8217;s full range 8 bit YCbCr values (0-255), avoiding clipping and the resulting loss of picture information. The resulting files are the absolute highest quality you&#8217;ll ever get out of the camera. In fact, you could argue that they&#8217;re <em>even better</em> than the camera originals since they&#8217;ve undergone high quality chroma smoothing.&#8221;</p>
+<p><strong>Bonus</strong></p>
+<p>Mac AVCHD gamma issues – the fix from EOSHD<br />
+<a href="http://www.sam-mallery.com/2011/11/an-ez-guide-to-hacking-the-panasonic-gh2/" target="_blank" rel="noopener noreferrer">An EZ Guide to Hacking the Panasonic GH2</a> by Sam Mallery<br />
+<a href="http://www.sam-mallery.com/2013/03/revisiting-the-gh2-hack/" target="_blank" rel="noopener noreferrer">Revisiting the GH2 Hack</a> by Sam Mallery</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/avchd-mac-import-solution/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3713</post-id>	</item>
+	</channel>
+</rss>

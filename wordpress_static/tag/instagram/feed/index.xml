@@ -1,0 +1,65 @@
+
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Instagram &#8211; Vision, Motion, Code</title>
+	<atom:link href="/tag/instagram/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Fri, 30 Apr 2021 06:07:03 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
+		<title>A proper Beijing market</title>
+		<link>/a-proper-beijing-market/</link>
+					<comments>/a-proper-beijing-market/#respond</comments>
+		
+		<dc:creator><![CDATA[CY Xu]]></dc:creator>
+		<pubDate>Thu, 04 Sep 2014 16:45:39 +0000</pubDate>
+				<category><![CDATA[Blog Posts]]></category>
+		<category><![CDATA[Beijing]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[life in Beijing]]></category>
+		<category><![CDATA[market]]></category>
+		<category><![CDATA[old town]]></category>
+		<category><![CDATA[shopping]]></category>
+		<guid isPermaLink="false">http://h1ppy.com/?p=3809</guid>
+
+					<description><![CDATA[Sanyuanli Food and Vegetable Market Description from Beijing Visitor: “This covered market nestles conveniently between Sanlitun, Sanyuan Qiao and Dongzhimen and has served locals and visitors for over 30 years. The stallholders are very friendly and happy to pass the time of day, even if you are just curious about where their produce comes from [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><strong>Sanyuanli Food and Vegetable Market </strong></p>
+<p>Description from <a href="http://www.beijing-visitor.com/beijing-shopping/sanyuanli-market" target="_blank" rel="noopener">Beijing Visitor</a>:</p>
+<p>“This covered market nestles conveniently between Sanlitun, Sanyuan Qiao and Dongzhimen and has served locals and visitors for over 30 years.</p>
+<p>The stallholders are very friendly and happy to pass the time of day, even if you are just curious about where their produce comes from or what exactly it is. Many of them speak a bit of English as they are used to serving the nearby diplomatic community.</p>
+<p>For many Western cooks the market is something of a promised land. Supermarket labeling in China can be frustrating, especially when it comes to herbs and spices, many of which are incorrectly translated. Sanyuanli imports everything from marjoram leaves to dill, parsley, rosemary and tumeric, and while this does make some of them a tad expensive, you need look no further if you are on a mission to stock your cupboards.<br />
+&#8230;<br />
+Sanyuanli is worth a visit even if you have no intention of getting behind a stove. Watching the gnomish vendors barter and bargain, their garish winter wear pale in comparison to the deep colours of their vegetables, is a sight that will warm the heart on even the coldest Beijing day.”</p>
+<p><strong>Access &#8211; how to get to Sanyuanli Wholesale Market</strong></p>
+<p>Sanyuanli Wholesale Market<br />
+Open 5am &#8211; 7pm<br />
+West of Sanyuan Dongqiao, Chaoyang<br />
+Nearest subway station is Dongzhimen</p>
+<p><strong>text by Dave Green, photos by CY Xu</strong></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/a-proper-beijing-market/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">3809</post-id>	</item>
+	</channel>
+</rss>

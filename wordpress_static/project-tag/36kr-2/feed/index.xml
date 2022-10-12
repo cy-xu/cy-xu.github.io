@@ -1,0 +1,54 @@
+
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>36Kr &#8211; Vision, Motion, Code</title>
+	<atom:link href="/project-tag/36kr-2/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Mon, 07 Nov 2016 09:03:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
+		<title>Investors want in on China&#8217;s tech scene</title>
+		<link>/portfolio/investors-want-in-on-chinas-tech-scene/</link>
+		
+		<dc:creator><![CDATA[CY Xu]]></dc:creator>
+		<pubDate>Wed, 12 Nov 2014 11:20:30 +0000</pubDate>
+				<guid isPermaLink="false">http://127.0.0.1/?post_type=jetpack-portfolio&#038;p=4051</guid>
+
+					<description><![CDATA[Hip, young and constantly fascinated by new apps and gadgets. China’s internet and tech scene is one of the world’s largest and fastest growing. Investors are desperately digging for the next big thing. A 26-year-old entrepreneur has created a platform to connect the dots. CNN link: edition.cnn.com/video/data/2.0/video/business/2014/11/11/spc-smart-business-china-next-big-thing.cnn.html Producer: Yuli Yang Cameraman: CY Xu Camera: Canon [&#8230;]]]></description>
+										<content:encoded><![CDATA[<div class="jetpack-video-wrapper">
+<div class="embed-vimeo" style="text-align: center;"><iframe loading="lazy" src="https://player.vimeo.com/video/111602422" width="880" height="495" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+</div>
+<p>Hip, young and constantly fascinated by new apps and gadgets. China’s internet and tech scene is one of the world’s largest and fastest growing. Investors are desperately digging for the next big thing. A 26-year-old entrepreneur has created a platform to connect the dots.</p>
+<p>CNN link: <a href="http://edition.cnn.com/video/data/2.0/video/business/2014/11/11/spc-smart-business-china-next-big-thing.cnn.html" target="_blank">edition.cnn.com/video/data/2.0/video/business/2014/11/11/spc-smart-business-china-next-big-thing.cnn.html</a></p>
+<p>Producer: Yuli Yang<br />
+Cameraman: CY Xu<br />
+Camera: Canon C300 + Nikon D800</p>
+<p>Nov 2014<br />
+For CNN</p>
+<p><!-- 大陆用户如果无法观看视频，请点击<a href="http://www.tudou.com/programs/view/KWdwz3w4wuA/" target="_blank">土豆观看</a>。
+
+<iframe loading="lazy" src="//player.vimeo.com/video/111602422?title=0" width="550" height="309" frameborder="0" allowfullscreen="allowfullscreen"></iframe> --></p>
+]]></content:encoded>
+					
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">4051</post-id>	</item>
+	</channel>
+</rss>

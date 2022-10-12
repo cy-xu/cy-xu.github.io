@@ -1,0 +1,53 @@
+
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>travel &#8211; Vision, Motion, Code</title>
+	<atom:link href="/tag/travel/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description></description>
+	<lastBuildDate>Thu, 02 Nov 2017 01:30:42 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.0.2</generator>
+<site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
+		<title>Trip2Borneo</title>
+		<link>/trip2borneo/</link>
+					<comments>/trip2borneo/#respond</comments>
+		
+		<dc:creator><![CDATA[CY Xu]]></dc:creator>
+		<pubDate>Fri, 12 Jul 2013 14:21:45 +0000</pubDate>
+				<category><![CDATA[Blog Posts]]></category>
+		<category><![CDATA[Borneo]]></category>
+		<category><![CDATA[islands]]></category>
+		<category><![CDATA[Kota Kinabalu]]></category>
+		<category><![CDATA[Malaysia]]></category>
+		<category><![CDATA[travel]]></category>
+		<guid isPermaLink="false">http://h1ppy.com/?p=2664</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[<p style="text-align: center;"><iframe loading="lazy" width="640" height="360" frameborder="0" src="//www.youtube.com/embed/Pe1I4IQKdCM"></iframe></p>
+
+
+]]></content:encoded>
+					
+					<wfw:commentRss>/trip2borneo/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">2664</post-id>	</item>
+	</channel>
+</rss>
