@@ -12,8 +12,8 @@
 <channel>
 	<title>
 	Comments on: Trip2Borneo	</title>
-	<atom:link href="/trip2borneo/feed/" rel="self" type="application/rss+xml" />
-	<link>/trip2borneo/</link>
+	<atom:link href="https://cy-xu.github.io/trip2borneo/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cy-xu.github.io/trip2borneo/</link>
 	<description></description>
 	<lastBuildDate>Thu, 02 Nov 2017 01:30:42 +0000</lastBuildDate>
 	<sy:updatePeriod>

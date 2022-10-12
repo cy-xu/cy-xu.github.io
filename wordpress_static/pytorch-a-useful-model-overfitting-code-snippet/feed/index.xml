@@ -12,8 +12,8 @@
 <channel>
 	<title>
 	Comments on: [pytorch] a useful model overfitting code snippet	</title>
-	<atom:link href="/pytorch-a-useful-model-overfitting-code-snippet/feed/" rel="self" type="application/rss+xml" />
-	<link>/pytorch-a-useful-model-overfitting-code-snippet/</link>
+	<atom:link href="https://cy-xu.github.io/pytorch-a-useful-model-overfitting-code-snippet/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cy-xu.github.io/pytorch-a-useful-model-overfitting-code-snippet/</link>
 	<description></description>
 	<lastBuildDate>Wed, 23 Oct 2019 06:27:41 +0000</lastBuildDate>
 	<sy:updatePeriod>

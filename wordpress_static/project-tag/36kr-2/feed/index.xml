@@ -13,8 +13,8 @@
 
 <channel>
 	<title>36Kr &#8211; Vision, Motion, Code</title>
-	<atom:link href="/project-tag/36kr-2/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://cy-xu.github.io/project-tag/36kr-2/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cy-xu.github.io/</link>
 	<description></description>
 	<lastBuildDate>Mon, 07 Nov 2016 09:03:39 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -25,7 +25,7 @@
 	<generator>https://wordpress.org/?v=6.0.2</generator>
 <site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
 		<title>Investors want in on China&#8217;s tech scene</title>
-		<link>/portfolio/investors-want-in-on-chinas-tech-scene/</link>
+		<link>https://cy-xu.github.io/portfolio/investors-want-in-on-chinas-tech-scene/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Wed, 12 Nov 2014 11:20:30 +0000</pubDate>

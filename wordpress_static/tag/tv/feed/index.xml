@@ -13,8 +13,8 @@
 
 <channel>
 	<title>TV &#8211; Vision, Motion, Code</title>
-	<atom:link href="/tag/tv/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://cy-xu.github.io/tag/tv/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cy-xu.github.io/</link>
 	<description></description>
 	<lastBuildDate>Tue, 18 Aug 2020 18:10:51 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -25,8 +25,8 @@
 	<generator>https://wordpress.org/?v=6.0.2</generator>
 <site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
 		<title>Jimi&#8217;s Video Journalist Crash Course</title>
-		<link>/jimis-video-journalist-crash-course/</link>
-					<comments>/jimis-video-journalist-crash-course/#respond</comments>
+		<link>https://cy-xu.github.io/jimis-video-journalist-crash-course/</link>
+					<comments>https://cy-xu.github.io/jimis-video-journalist-crash-course/#respond</comments>
 		
 		<dc:creator><![CDATA[Jimi]]></dc:creator>
 		<pubDate>Mon, 10 Aug 2020 06:53:09 +0000</pubDate>
@@ -288,7 +288,7 @@
 <p><a href="https://www.youtube.com/user/filmriot/featured" target="_blank" rel="noreferrer noopener">https://www.youtube.com/user/filmriot/featured</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/jimis-video-journalist-crash-course/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/jimis-video-journalist-crash-course/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

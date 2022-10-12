@@ -12,8 +12,8 @@
 <channel>
 	<title>
 	Comments on: What a Beijing!	</title>
-	<atom:link href="/what-a-beijing/feed/" rel="self" type="application/rss+xml" />
-	<link>/what-a-beijing/</link>
+	<atom:link href="https://cy-xu.github.io/what-a-beijing/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cy-xu.github.io/what-a-beijing/</link>
 	<description></description>
 	<lastBuildDate>Fri, 30 Apr 2021 06:07:02 +0000</lastBuildDate>
 	<sy:updatePeriod>

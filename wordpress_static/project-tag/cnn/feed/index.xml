@@ -13,8 +13,8 @@
 
 <channel>
 	<title>CNN &#8211; Vision, Motion, Code</title>
-	<atom:link href="/project-tag/cnn/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://cy-xu.github.io/project-tag/cnn/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cy-xu.github.io/</link>
 	<description></description>
 	<lastBuildDate>Mon, 07 Nov 2016 09:04:05 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -25,7 +25,7 @@
 	<generator>https://wordpress.org/?v=6.0.2</generator>
 <site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
 		<title>China&#8217;s game-changing taxi-hailing app</title>
-		<link>/portfolio/chinas-game-changing-taxi-hailing-app/</link>
+		<link>https://cy-xu.github.io/portfolio/chinas-game-changing-taxi-hailing-app/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Wed, 26 Nov 2014 04:58:07 +0000</pubDate>
@@ -47,7 +47,7 @@ For CNN</p>
 		<post-id xmlns="com-wordpress:feed-additions:1">4086</post-id>	</item>
 		<item>
 		<title>Investors want in on China&#8217;s tech scene</title>
-		<link>/portfolio/investors-want-in-on-chinas-tech-scene/</link>
+		<link>https://cy-xu.github.io/portfolio/investors-want-in-on-chinas-tech-scene/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Wed, 12 Nov 2014 11:20:30 +0000</pubDate>
@@ -74,7 +74,7 @@ For CNN</p>
 		<post-id xmlns="com-wordpress:feed-additions:1">4051</post-id>	</item>
 		<item>
 		<title>Michelle Obama: The iReport interview</title>
-		<link>/portfolio/michelle-obama-the-ireport-interview/</link>
+		<link>https://cy-xu.github.io/portfolio/michelle-obama-the-ireport-interview/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Wed, 12 Mar 2014 10:12:02 +0000</pubDate>
@@ -95,7 +95,7 @@ For CNN iReport</p>
 		<post-id xmlns="com-wordpress:feed-additions:1">4091</post-id>	</item>
 		<item>
 		<title>Saddle up! Wild West goes to China</title>
-		<link>/portfolio/saddle-up-wild-west-goes-to-china/</link>
+		<link>https://cy-xu.github.io/portfolio/saddle-up-wild-west-goes-to-china/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Thu, 04 Jul 2013 08:31:06 +0000</pubDate>
@@ -117,7 +117,7 @@ For CNN</p>
 		<post-id xmlns="com-wordpress:feed-additions:1">4057</post-id>	</item>
 		<item>
 		<title>Business Traveller: Rail rules in Asia</title>
-		<link>/portfolio/business-traveller-rail-rules-in-asia/</link>
+		<link>https://cy-xu.github.io/portfolio/business-traveller-rail-rules-in-asia/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Thu, 11 Apr 2013 10:23:47 +0000</pubDate>
@@ -137,7 +137,7 @@ For CNN</p>
 		<post-id xmlns="com-wordpress:feed-additions:1">4083</post-id>	</item>
 		<item>
 		<title>China&#8217;s caffeine high</title>
-		<link>/portfolio/chinas-caffeine-high/</link>
+		<link>https://cy-xu.github.io/portfolio/chinas-caffeine-high/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Fri, 29 Mar 2013 08:44:31 +0000</pubDate>
@@ -161,7 +161,7 @@ For CNN</p>
 		<post-id xmlns="com-wordpress:feed-additions:1">4060</post-id>	</item>
 		<item>
 		<title>Tea, tradition and trade in China</title>
-		<link>/portfolio/tea-tradition-and-trade-in-china/</link>
+		<link>https://cy-xu.github.io/portfolio/tea-tradition-and-trade-in-china/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Fri, 29 Mar 2013 08:36:41 +0000</pubDate>
