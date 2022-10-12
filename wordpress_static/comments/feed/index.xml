@@ -12,8 +12,8 @@
 <channel>
 	<title>
 	Comments for Vision, Motion, Code	</title>
-	<atom:link href="https://cy-xu.github.io/wordpress_static/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cy-xu.github.io/wordpress_static/</link>
+	<atom:link href="https://cyxu.tv/wordpress_static/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cyxu.tv/wordpress_static/</link>
 	<description></description>
 	<lastBuildDate>Thu, 07 Jul 2022 18:01:37 +0000</lastBuildDate>
 	<sy:updatePeriod>
