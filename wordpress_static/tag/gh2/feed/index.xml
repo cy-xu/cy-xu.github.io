@@ -13,8 +13,8 @@
 
 <channel>
 	<title>GH2 &#8211; Vision, Motion, Code</title>
-	<atom:link href="https://cy-xu.github.io/tag/gh2/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cy-xu.github.io/</link>
+	<atom:link href="https://cy-xu.github.io/wordpress_static/tag/gh2/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cy-xu.github.io/wordpress_static/</link>
 	<description></description>
 	<lastBuildDate>Tue, 18 Aug 2020 19:03:38 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -25,8 +25,8 @@
 	<generator>https://wordpress.org/?v=6.0.2</generator>
 <site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
 		<title>AVCHD Import to Mac Issues and Solution</title>
-		<link>https://cy-xu.github.io/avchd-mac-import-solution/</link>
-					<comments>https://cy-xu.github.io/avchd-mac-import-solution/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/avchd-mac-import-solution/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/avchd-mac-import-solution/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Thu, 21 Aug 2014 11:36:27 +0000</pubDate>
@@ -53,7 +53,7 @@ Lite version free but limits to one file at a time. Batch version costs $49.99 i
 <a href="http://www.sam-mallery.com/2013/03/revisiting-the-gh2-hack/" target="_blank" rel="noopener noreferrer">Revisiting the GH2 Hack</a> by Sam Mallery</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/avchd-mac-import-solution/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/avchd-mac-import-solution/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

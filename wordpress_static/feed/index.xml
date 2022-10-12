@@ -13,8 +13,8 @@
 
 <channel>
 	<title>Vision, Motion, Code</title>
-	<atom:link href="https://cy-xu.github.io/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cy-xu.github.io/</link>
+	<atom:link href="https://cy-xu.github.io/wordpress_static/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cy-xu.github.io/wordpress_static/</link>
 	<description></description>
 	<lastBuildDate>Fri, 30 Apr 2021 06:07:03 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -25,8 +25,8 @@
 	<generator>https://wordpress.org/?v=6.0.2</generator>
 <site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
 		<title>Jimi&#8217;s Video Journalist Crash Course</title>
-		<link>https://cy-xu.github.io/jimis-video-journalist-crash-course/</link>
-					<comments>https://cy-xu.github.io/jimis-video-journalist-crash-course/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/jimis-video-journalist-crash-course/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/jimis-video-journalist-crash-course/#respond</comments>
 		
 		<dc:creator><![CDATA[Jimi]]></dc:creator>
 		<pubDate>Mon, 10 Aug 2020 06:53:09 +0000</pubDate>
@@ -288,15 +288,15 @@
 <p><a href="https://www.youtube.com/user/filmriot/featured" target="_blank" rel="noreferrer noopener">https://www.youtube.com/user/filmriot/featured</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/jimis-video-journalist-crash-course/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/jimis-video-journalist-crash-course/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">5236</post-id>	</item>
 		<item>
 		<title>[pytorch] a useful model overfitting code snippet</title>
-		<link>https://cy-xu.github.io/pytorch-a-useful-model-overfitting-code-snippet/</link>
-					<comments>https://cy-xu.github.io/pytorch-a-useful-model-overfitting-code-snippet/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/pytorch-a-useful-model-overfitting-code-snippet/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/pytorch-a-useful-model-overfitting-code-snippet/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Wed, 23 Oct 2019 06:27:41 +0000</pubDate>
@@ -344,15 +344,15 @@ for before, after in zip(param_before, param_after):
 
 </pre></div>]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/pytorch-a-useful-model-overfitting-code-snippet/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/pytorch-a-useful-model-overfitting-code-snippet/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">5205</post-id>	</item>
 		<item>
 		<title>A proper Beijing market</title>
-		<link>https://cy-xu.github.io/a-proper-beijing-market/</link>
-					<comments>https://cy-xu.github.io/a-proper-beijing-market/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/a-proper-beijing-market/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/a-proper-beijing-market/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Thu, 04 Sep 2014 16:45:39 +0000</pubDate>
@@ -382,15 +382,15 @@ Nearest subway station is Dongzhimen</p>
 <p><strong>text by Dave Green, photos by CY Xu</strong></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/a-proper-beijing-market/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/a-proper-beijing-market/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3809</post-id>	</item>
 		<item>
 		<title>4K does make a difference</title>
-		<link>https://cy-xu.github.io/4k-does-make-a-difference/</link>
-					<comments>https://cy-xu.github.io/4k-does-make-a-difference/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/4k-does-make-a-difference/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/4k-does-make-a-difference/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Thu, 04 Sep 2014 09:01:04 +0000</pubDate>
@@ -403,15 +403,15 @@ Nearest subway station is Dongzhimen</p>
 										<content:encoded><![CDATA[<p><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/4k-does-make-a-difference/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/4k-does-make-a-difference/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3788</post-id>	</item>
 		<item>
 		<title>AVCHD Import to Mac Issues and Solution</title>
-		<link>https://cy-xu.github.io/avchd-mac-import-solution/</link>
-					<comments>https://cy-xu.github.io/avchd-mac-import-solution/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/avchd-mac-import-solution/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/avchd-mac-import-solution/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Thu, 21 Aug 2014 11:36:27 +0000</pubDate>
@@ -438,15 +438,15 @@ Lite version free but limits to one file at a time. Batch version costs $49.99 i
 <a href="http://www.sam-mallery.com/2013/03/revisiting-the-gh2-hack/" target="_blank" rel="noopener noreferrer">Revisiting the GH2 Hack</a> by Sam Mallery</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/avchd-mac-import-solution/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/avchd-mac-import-solution/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">3713</post-id>	</item>
 		<item>
 		<title>我家妞妞 Our NiuNiu</title>
-		<link>https://cy-xu.github.io/%e6%88%91%e5%ae%b6%e5%a6%9e%e5%a6%9e-our-niuniu/</link>
-					<comments>https://cy-xu.github.io/%e6%88%91%e5%ae%b6%e5%a6%9e%e5%a6%9e-our-niuniu/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/%e6%88%91%e5%ae%b6%e5%a6%9e%e5%a6%9e-our-niuniu/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/%e6%88%91%e5%ae%b6%e5%a6%9e%e5%a6%9e-our-niuniu/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Sun, 15 Sep 2013 14:23:07 +0000</pubDate>
@@ -454,7 +454,7 @@ Lite version free but limits to one file at a time. Batch version costs $49.99 i
 		<guid isPermaLink="false">http://h1ppy.com/?p=2822</guid>
 
 					<description><![CDATA[妞妞，我和爸爸妈妈谢谢你15年的陪伴。 Niuniu, daddy, mummy and I thank you for your 15 years of company. 以后敲门听不到你叫了，以后也没人吃我的剩饭了。 I won&#8217;t hear your yowling when I knock on the door, and no one will eat my left-over anymore. 所以，你还是听得懂我说话的，我昨晚在你耳边说悄悄话，“如果太疼了，就走吧。”没想到你真的听懂了。这也成了我跟你说的最后一次悄悄话。 So you understand my words after all. I whispered at your ear last night, &#8220;If it&#8217;s too painful, just let [&#8230;]]]></description>
-										<content:encoded><![CDATA[<p><figure id="attachment_4389" aria-describedby="caption-attachment-4389" style="width: 800px" class="wp-caption alignleft"><img data-attachment-id="4389" data-permalink="https://cy-xu.github.io/%e6%88%91%e5%ae%b6%e5%a6%9e%e5%a6%9e-our-niuniu/146-niuniu_1yr_old/" data-orig-file="https://i0.wp.com/cyxu.tv/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?fit=800%2C588&amp;ssl=1" data-orig-size="800,588" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;Picasa&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1298943244&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="146-Niuniu_1yr_old" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/cyxu.tv/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?fit=300%2C221&amp;ssl=1" data-large-file="https://i0.wp.com/cyxu.tv/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?fit=800%2C588&amp;ssl=1" loading="lazy" class="wp-image-4389 size-full" src="https://i0.wp.com/127.0.0.1/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?resize=800%2C588" alt="" width="800" height="588" srcset="https://i0.wp.com/cyxu.tv/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?w=800&amp;ssl=1 800w, https://i0.wp.com/cyxu.tv/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?resize=300%2C221&amp;ssl=1 300w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /><figcaption id="caption-attachment-4389" class="wp-caption-text">When NiuNiu was 1 and I was 11.</figcaption></figure></p>
+										<content:encoded><![CDATA[<p><figure id="attachment_4389" aria-describedby="caption-attachment-4389" style="width: 800px" class="wp-caption alignleft"><img data-attachment-id="4389" data-permalink="https://cy-xu.github.io/wordpress_static/%e6%88%91%e5%ae%b6%e5%a6%9e%e5%a6%9e-our-niuniu/146-niuniu_1yr_old/" data-orig-file="https://i0.wp.com/cyxu.tv/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?fit=800%2C588&amp;ssl=1" data-orig-size="800,588" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;Picasa&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1298943244&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="146-Niuniu_1yr_old" data-image-description="" data-image-caption="" data-medium-file="https://i0.wp.com/cyxu.tv/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?fit=300%2C221&amp;ssl=1" data-large-file="https://i0.wp.com/cyxu.tv/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?fit=800%2C588&amp;ssl=1" loading="lazy" class="wp-image-4389 size-full" src="https://i0.wp.com/127.0.0.1/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?resize=800%2C588" alt="" width="800" height="588" srcset="https://i0.wp.com/cyxu.tv/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?w=800&amp;ssl=1 800w, https://i0.wp.com/cyxu.tv/wp-content/uploads/2013/09/146-Niuniu_1yr_old.jpg?resize=300%2C221&amp;ssl=1 300w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /><figcaption id="caption-attachment-4389" class="wp-caption-text">When NiuNiu was 1 and I was 11.</figcaption></figure></p>
 <p>妞妞，我和爸爸妈妈谢谢你15年的陪伴。<br />
 Niuniu, daddy, mummy and I thank you for your 15 years of company.</p>
 <p>以后敲门听不到你叫了，以后也没人吃我的剩饭了。<br />
@@ -469,15 +469,15 @@ Thank you.</p>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/%e6%88%91%e5%ae%b6%e5%a6%9e%e5%a6%9e-our-niuniu/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/%e6%88%91%e5%ae%b6%e5%a6%9e%e5%a6%9e-our-niuniu/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2822</post-id>	</item>
 		<item>
 		<title>Trip2Borneo</title>
-		<link>https://cy-xu.github.io/trip2borneo/</link>
-					<comments>https://cy-xu.github.io/trip2borneo/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/trip2borneo/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/trip2borneo/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Fri, 12 Jul 2013 14:21:45 +0000</pubDate>
@@ -495,15 +495,15 @@ Thank you.</p>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/trip2borneo/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/trip2borneo/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2664</post-id>	</item>
 		<item>
 		<title>拾荒老人和三轮车上的狗</title>
-		<link>https://cy-xu.github.io/%e6%8b%be%e8%8d%92%e8%80%81%e4%ba%ba%e5%92%8c%e4%b8%89%e8%bd%ae%e8%bd%a6%e4%b8%8a%e7%9a%84%e7%8b%97/</link>
-					<comments>https://cy-xu.github.io/%e6%8b%be%e8%8d%92%e8%80%81%e4%ba%ba%e5%92%8c%e4%b8%89%e8%bd%ae%e8%bd%a6%e4%b8%8a%e7%9a%84%e7%8b%97/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/%e6%8b%be%e8%8d%92%e8%80%81%e4%ba%ba%e5%92%8c%e4%b8%89%e8%bd%ae%e8%bd%a6%e4%b8%8a%e7%9a%84%e7%8b%97/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/%e6%8b%be%e8%8d%92%e8%80%81%e4%ba%ba%e5%92%8c%e4%b8%89%e8%bd%ae%e8%bd%a6%e4%b8%8a%e7%9a%84%e7%8b%97/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Mon, 12 Nov 2012 14:41:03 +0000</pubDate>
@@ -534,15 +534,15 @@ Thank you.</p>
 <p></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/%e6%8b%be%e8%8d%92%e8%80%81%e4%ba%ba%e5%92%8c%e4%b8%89%e8%bd%ae%e8%bd%a6%e4%b8%8a%e7%9a%84%e7%8b%97/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/%e6%8b%be%e8%8d%92%e8%80%81%e4%ba%ba%e5%92%8c%e4%b8%89%e8%bd%ae%e8%bd%a6%e4%b8%8a%e7%9a%84%e7%8b%97/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2431</post-id>	</item>
 		<item>
 		<title>A Different Beijing 2012-09-03</title>
-		<link>https://cy-xu.github.io/a-different-beijing-2012-09-03-2/</link>
-					<comments>https://cy-xu.github.io/a-different-beijing-2012-09-03-2/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/a-different-beijing-2012-09-03-2/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/a-different-beijing-2012-09-03-2/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Sun, 02 Sep 2012 23:07:11 +0000</pubDate>
@@ -553,15 +553,15 @@ Thank you.</p>
 										<content:encoded><![CDATA[<p><img loading="lazy" src="https://i0.wp.com/farm9.staticflickr.com/8310/7917377184_4e133a9c78_k.jpg?resize=880%2C335&#038;ssl=1" width="880" height="335" alt="A Different Beijing 2012-09-03" data-recalc-dims="1"><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/a-different-beijing-2012-09-03-2/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/a-different-beijing-2012-09-03-2/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">2320</post-id>	</item>
 		<item>
 		<title>崔健英语不错</title>
-		<link>https://cy-xu.github.io/cui-jian-speaks-good-english/</link>
-					<comments>https://cy-xu.github.io/cui-jian-speaks-good-english/#respond</comments>
+		<link>https://cy-xu.github.io/wordpress_static/cui-jian-speaks-good-english/</link>
+					<comments>https://cy-xu.github.io/wordpress_static/cui-jian-speaks-good-english/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Sun, 22 Jul 2012 07:06:34 +0000</pubDate>
@@ -576,7 +576,7 @@ Thank you.</p>
 </div>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cy-xu.github.io/cui-jian-speaks-good-english/feed/</wfw:commentRss>
+					<wfw:commentRss>https://cy-xu.github.io/wordpress_static/cui-jian-speaks-good-english/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

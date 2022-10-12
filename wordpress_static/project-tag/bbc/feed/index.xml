@@ -13,8 +13,8 @@
 
 <channel>
 	<title>BBC &#8211; Vision, Motion, Code</title>
-	<atom:link href="https://cy-xu.github.io/project-tag/bbc/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cy-xu.github.io/</link>
+	<atom:link href="https://cy-xu.github.io/wordpress_static/project-tag/bbc/feed/" rel="self" type="application/rss+xml" />
+	<link>https://cy-xu.github.io/wordpress_static/</link>
 	<description></description>
 	<lastBuildDate>Mon, 07 Nov 2016 09:03:39 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -25,7 +25,7 @@
 	<generator>https://wordpress.org/?v=6.0.2</generator>
 <site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
 		<title>Inside China’s modern nuclear power plant</title>
-		<link>https://cy-xu.github.io/portfolio/inside-chinas-modern-nuclear-power-plant/</link>
+		<link>https://cy-xu.github.io/wordpress_static/portfolio/inside-chinas-modern-nuclear-power-plant/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Mon, 30 Nov 2015 14:10:49 +0000</pubDate>
