@@ -13,8 +13,8 @@
 
 <channel>
 	<title>Borneo &#8211; Vision, Motion, Code</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/tag/borneo/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/</link>
+	<atom:link href="http://localhost/tag/borneo/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/</link>
 	<description></description>
 	<lastBuildDate>Thu, 02 Nov 2017 01:30:42 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -22,11 +22,11 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
-<site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
+	<item>
 		<title>Trip2Borneo</title>
-		<link>https://cyxu.tv/wordpress_static/trip2borneo/</link>
-					<comments>https://cyxu.tv/wordpress_static/trip2borneo/#respond</comments>
+		<link>/wordpress_static/trip2borneo/</link>
+					<comments>/wordpress_static/trip2borneo/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Fri, 12 Jul 2013 14:21:45 +0000</pubDate>
@@ -44,10 +44,10 @@
 
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cyxu.tv/wordpress_static/trip2borneo/feed/</wfw:commentRss>
+					<wfw:commentRss>/wordpress_static/trip2borneo/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">2664</post-id>	</item>
+			</item>
 	</channel>
 </rss>

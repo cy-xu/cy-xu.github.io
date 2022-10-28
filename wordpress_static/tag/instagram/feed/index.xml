@@ -13,8 +13,8 @@
 
 <channel>
 	<title>Instagram &#8211; Vision, Motion, Code</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/tag/instagram/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/</link>
+	<atom:link href="http://localhost/tag/instagram/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/</link>
 	<description></description>
 	<lastBuildDate>Fri, 30 Apr 2021 06:07:03 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -22,11 +22,11 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
-<site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
+	<item>
 		<title>A proper Beijing market</title>
-		<link>https://cyxu.tv/wordpress_static/a-proper-beijing-market/</link>
-					<comments>https://cyxu.tv/wordpress_static/a-proper-beijing-market/#respond</comments>
+		<link>/wordpress_static/a-proper-beijing-market/</link>
+					<comments>/wordpress_static/a-proper-beijing-market/#respond</comments>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Thu, 04 Sep 2014 16:45:39 +0000</pubDate>
@@ -56,10 +56,10 @@ Nearest subway station is Dongzhimen</p>
 <p><strong>text by Dave Green, photos by CY Xu</strong></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cyxu.tv/wordpress_static/a-proper-beijing-market/feed/</wfw:commentRss>
+					<wfw:commentRss>/wordpress_static/a-proper-beijing-market/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">3809</post-id>	</item>
+			</item>
 	</channel>
 </rss>

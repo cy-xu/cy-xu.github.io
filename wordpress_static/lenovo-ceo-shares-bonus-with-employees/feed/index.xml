@@ -12,14 +12,14 @@
 <channel>
 	<title>
 	Comments on: Lenovo CEO shares bonus with employees	</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/lenovo-ceo-shares-bonus-with-employees/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/lenovo-ceo-shares-bonus-with-employees/</link>
+	<atom:link href="http://localhost/lenovo-ceo-shares-bonus-with-employees/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/lenovo-ceo-shares-bonus-with-employees/</link>
 	<description></description>
-	<lastBuildDate>Fri, 20 Jul 2012 17:40:16 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 28 Oct 2022 00:15:28 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
 </channel>
 </rss>

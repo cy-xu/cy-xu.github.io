@@ -12,14 +12,14 @@
 <channel>
 	<title>
 	Comments on: What a Beijing!	</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/what-a-beijing/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/what-a-beijing/</link>
+	<atom:link href="http://localhost/what-a-beijing/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/what-a-beijing/</link>
 	<description></description>
 	<lastBuildDate>Fri, 30 Apr 2021 06:07:02 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
 </channel>
 </rss>

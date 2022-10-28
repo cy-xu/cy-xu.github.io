@@ -13,8 +13,8 @@
 
 <channel>
 	<title>CNN &#8211; Vision, Motion, Code</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/project-tag/cnn/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/</link>
+	<atom:link href="http://localhost/project-tag/cnn/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/</link>
 	<description></description>
 	<lastBuildDate>Mon, 07 Nov 2016 09:04:05 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -22,14 +22,14 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
-<site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
+	<item>
 		<title>China&#8217;s game-changing taxi-hailing app</title>
-		<link>https://cyxu.tv/wordpress_static/portfolio/chinas-game-changing-taxi-hailing-app/</link>
+		<link>/wordpress_static/portfolio/chinas-game-changing-taxi-hailing-app/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Wed, 26 Nov 2014 04:58:07 +0000</pubDate>
-				<guid isPermaLink="false">http://127.0.0.1/?post_type=jetpack-portfolio&#038;p=4073</guid>
+				<guid isPermaLink="false">/wordpress_static/?post_type=jetpack-portfolio&#038;p=4073</guid>
 
 					<description><![CDATA[A brand new app is driving change by redistributing taxi resources in Beijing. CNN&#8217;s Kristie Lu Stout reports. Producer: Yuli Yang Cameraman: CY Xu Nov 2014 For CNN]]></description>
 										<content:encoded><![CDATA[<div class="jetpack-video-wrapper">
@@ -44,14 +44,14 @@ For CNN</p>
 					
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">4086</post-id>	</item>
+			</item>
 		<item>
 		<title>Investors want in on China&#8217;s tech scene</title>
-		<link>https://cyxu.tv/wordpress_static/portfolio/investors-want-in-on-chinas-tech-scene/</link>
+		<link>/wordpress_static/portfolio/investors-want-in-on-chinas-tech-scene/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Wed, 12 Nov 2014 11:20:30 +0000</pubDate>
-				<guid isPermaLink="false">http://127.0.0.1/?post_type=jetpack-portfolio&#038;p=4051</guid>
+				<guid isPermaLink="false">/wordpress_static/?post_type=jetpack-portfolio&#038;p=4051</guid>
 
 					<description><![CDATA[Hip, young and constantly fascinated by new apps and gadgets. China’s internet and tech scene is one of the world’s largest and fastest growing. Investors are desperately digging for the next big thing. A 26-year-old entrepreneur has created a platform to connect the dots. CNN link: edition.cnn.com/video/data/2.0/video/business/2014/11/11/spc-smart-business-china-next-big-thing.cnn.html Producer: Yuli Yang Cameraman: CY Xu Camera: Canon [&#8230;]]]></description>
 										<content:encoded><![CDATA[<div class="jetpack-video-wrapper">
@@ -71,14 +71,14 @@ For CNN</p>
 					
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">4051</post-id>	</item>
+			</item>
 		<item>
 		<title>Michelle Obama: The iReport interview</title>
-		<link>https://cyxu.tv/wordpress_static/portfolio/michelle-obama-the-ireport-interview/</link>
+		<link>/wordpress_static/portfolio/michelle-obama-the-ireport-interview/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Wed, 12 Mar 2014 10:12:02 +0000</pubDate>
-				<guid isPermaLink="false">http://127.0.0.1/?post_type=jetpack-portfolio&#038;p=4091</guid>
+				<guid isPermaLink="false">/wordpress_static/?post_type=jetpack-portfolio&#038;p=4091</guid>
 
 					<description><![CDATA[The first lady sits down and answers your questions from Beijing. Cameraman: Nathan Mauger, CY Xu Mar 2014 For CNN iReport]]></description>
 										<content:encoded><![CDATA[<div class="jetpack-video-wrapper">
@@ -92,14 +92,14 @@ For CNN iReport</p>
 					
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">4091</post-id>	</item>
+			</item>
 		<item>
 		<title>Saddle up! Wild West goes to China</title>
-		<link>https://cyxu.tv/wordpress_static/portfolio/saddle-up-wild-west-goes-to-china/</link>
+		<link>/wordpress_static/portfolio/saddle-up-wild-west-goes-to-china/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Thu, 04 Jul 2013 08:31:06 +0000</pubDate>
-				<guid isPermaLink="false">http://127.0.0.1/?post_type=jetpack-portfolio&#038;p=4057</guid>
+				<guid isPermaLink="false">/wordpress_static/?post_type=jetpack-portfolio&#038;p=4057</guid>
 
 					<description><![CDATA[Correspondent: Steven Jiang Cameraman: CY Xu Jul 2013 For CNN]]></description>
 										<content:encoded><![CDATA[<div class="jetpack-video-wrapper">
@@ -114,14 +114,14 @@ For CNN</p>
 					
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">4057</post-id>	</item>
+			</item>
 		<item>
 		<title>Business Traveller: Rail rules in Asia</title>
-		<link>https://cyxu.tv/wordpress_static/portfolio/business-traveller-rail-rules-in-asia/</link>
+		<link>/wordpress_static/portfolio/business-traveller-rail-rules-in-asia/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Thu, 11 Apr 2013 10:23:47 +0000</pubDate>
-				<guid isPermaLink="false">http://127.0.0.1/?post_type=jetpack-portfolio&#038;p=4064</guid>
+				<guid isPermaLink="false">/wordpress_static/?post_type=jetpack-portfolio&#038;p=4064</guid>
 
 					<description><![CDATA[CNN Business Traveller looks at what makes China the king of high speed rail, while India lacks modern infrastructure. Producer: Steven Jiang Cameraman: CY Xu (China part) Apr 2013 For CNN]]></description>
 										<content:encoded><![CDATA[<p><iframe loading="lazy" width="550" height="310" src="http://edition.cnn.com/video/api/embed.html#/video/international/2013/04/11/business-traveller-rail-b.cnn" frameborder="0"></iframe></p>
@@ -134,14 +134,14 @@ For CNN</p>
 					
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">4083</post-id>	</item>
+			</item>
 		<item>
 		<title>China&#8217;s caffeine high</title>
-		<link>https://cyxu.tv/wordpress_static/portfolio/chinas-caffeine-high/</link>
+		<link>/wordpress_static/portfolio/chinas-caffeine-high/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Fri, 29 Mar 2013 08:44:31 +0000</pubDate>
-				<guid isPermaLink="false">http://127.0.0.1/?post_type=jetpack-portfolio&#038;p=4060</guid>
+				<guid isPermaLink="false">/wordpress_static/?post_type=jetpack-portfolio&#038;p=4060</guid>
 
 					<description><![CDATA[This is part 2 of a complete story about how Tea and Coffee have changed SW China&#8217;s ancient trading route &#8211; Tea Horse Road. Part 1: Tea, tradition and trade in China &#8211; vimeo.com/86104510 Correspondent: Steven Jiang Cameraman: CY Xu Mar 2013 For CNN]]></description>
 										<content:encoded><![CDATA[<div class="jetpack-video-wrapper">
@@ -158,14 +158,14 @@ For CNN</p>
 					
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">4060</post-id>	</item>
+			</item>
 		<item>
 		<title>Tea, tradition and trade in China</title>
-		<link>https://cyxu.tv/wordpress_static/portfolio/tea-tradition-and-trade-in-china/</link>
+		<link>/wordpress_static/portfolio/tea-tradition-and-trade-in-china/</link>
 		
 		<dc:creator><![CDATA[CY Xu]]></dc:creator>
 		<pubDate>Fri, 29 Mar 2013 08:36:41 +0000</pubDate>
-				<guid isPermaLink="false">http://127.0.0.1/?post_type=jetpack-portfolio&#038;p=4059</guid>
+				<guid isPermaLink="false">/wordpress_static/?post_type=jetpack-portfolio&#038;p=4059</guid>
 
 					<description><![CDATA[This is part 1 of a complete story about how Tea and Coffee have changed SW China&#8217;s ancient trading route &#8211; Tea Horse Road. Part 2: China&#8217;s caffeine high &#8211; vimeo.com/86104512 Correspondent: Steven Jiang Cameraman: CY Xu Mar 2013 For CNN]]></description>
 										<content:encoded><![CDATA[<div class="jetpack-video-wrapper">
@@ -182,6 +182,6 @@ For CNN</p>
 					
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">4059</post-id>	</item>
+			</item>
 	</channel>
 </rss>

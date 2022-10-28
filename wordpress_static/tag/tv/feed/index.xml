@@ -13,8 +13,8 @@
 
 <channel>
 	<title>TV &#8211; Vision, Motion, Code</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/tag/tv/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/</link>
+	<atom:link href="http://localhost/tag/tv/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/</link>
 	<description></description>
 	<lastBuildDate>Tue, 18 Aug 2020 18:10:51 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -22,18 +22,18 @@
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
-<site xmlns="com-wordpress:feed-additions:1">78472522</site>	<item>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
+	<item>
 		<title>Jimi&#8217;s Video Journalist Crash Course</title>
-		<link>https://cyxu.tv/wordpress_static/jimis-video-journalist-crash-course/</link>
-					<comments>https://cyxu.tv/wordpress_static/jimis-video-journalist-crash-course/#respond</comments>
+		<link>/wordpress_static/jimis-video-journalist-crash-course/</link>
+					<comments>/wordpress_static/jimis-video-journalist-crash-course/#respond</comments>
 		
 		<dc:creator><![CDATA[Jimi]]></dc:creator>
 		<pubDate>Mon, 10 Aug 2020 06:53:09 +0000</pubDate>
 				<category><![CDATA[Blog Posts]]></category>
 		<category><![CDATA[Journalism]]></category>
 		<category><![CDATA[TV]]></category>
-		<guid isPermaLink="false">http://127.0.0.1/?p=5236</guid>
+		<guid isPermaLink="false">/wordpress_static/?p=5236</guid>
 
 					<description><![CDATA[Before you start filming, watch The story who, what, where, why, when, how the takeaway The workflow the proposal, pitch a good story discussion, consider possible scenarios, backup plans preparation, what do you need execution, go, interview, film, video, stills, and sound. Don&#8217;t forget names and titles write the story, fact check, proofread, record soundtrack [&#8230;]]]></description>
 										<content:encoded><![CDATA[
@@ -86,7 +86,7 @@
 
 
 <figure class="wp-block-embed-vimeo wp-block-embed is-type-video is-provider-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><div class="embed-vimeo" style="text-align: center;"><iframe src="https://player.vimeo.com/video/210535510" width="880" height="495" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
+<div class="jetpack-video-wrapper"><div class="embed-vimeo" style="text-align: center;"><iframe loading="lazy" src="https://player.vimeo.com/video/210535510" width="880" height="495" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></div>
 </div></figure>
 
 
@@ -142,19 +142,19 @@
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/7Fzyvv0DS9I?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/7Fzyvv0DS9I?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>Very practical tips from the BBC</figcaption></figure>
 
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/HAjfsgwT2oU?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/HAjfsgwT2oU?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>(Almost) all you need to film a proper interview on your phone!</figcaption></figure>
 
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/oAu49cTqS8I?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/oAu49cTqS8I?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>More tips from the BBC</figcaption></figure>
 
 
@@ -168,19 +168,19 @@
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/x3sj3UqltVw?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;start=9&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/x3sj3UqltVw?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;start=9&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>Audio tips when filming with your phone. </figcaption></figure>
 
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/wd_f7iYbFrA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/wd_f7iYbFrA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>If you manage to find a lavalier (lapel) mic, here is a video shows how to correctly use it.</figcaption></figure>
 
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/ptV0FQQRFPI?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/ptV0FQQRFPI?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>The closer you get to the microphone, the better it sounds. Hers is the basic golden rule to all microphones. This video shows you how to use lapel mics and shotgun mics properly.</figcaption></figure>
 
 
@@ -194,7 +194,7 @@
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/iWQQgZh9EyE?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;start=29&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/iWQQgZh9EyE?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>Must watch! Visual Storytelling from the Master</figcaption></figure>
 
 
@@ -208,13 +208,13 @@
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/Dfv_0Pjni6U?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/Dfv_0Pjni6U?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>Here is a good video talked about the basic lighting for an interview. We may not have the same fancy gears but the rule of three point lighting is universal, we could use whatever handy to get a great looking shot.</figcaption></figure>
 
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/DiKlTQcCjSE?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/DiKlTQcCjSE?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>Lighting is critical to make a nice shot, but if necessary, it is possible without using a single light.</figcaption></figure>
 
 
@@ -232,31 +232,31 @@
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/PYTPXsMkYDE?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/PYTPXsMkYDE?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>Adobe Premiere Pro &#8211; Basic Editing for Beginners</figcaption></figure>
 
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/2L1QhbkQorA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/2L1QhbkQorA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>Basic Final Cut Pro editing</figcaption></figure>
 
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/nV-hH-hoGhA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/nV-hH-hoGhA?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>One more tutorial based on television news story editing</figcaption></figure>
 
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/zoE6x4xQh7s?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/zoE6x4xQh7s?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>7 editing tips from film editor, but also works for news story telling!</figcaption></figure>
 
 
 
 <figure class="wp-block-embed-youtube wp-block-embed is-type-video is-provider-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<div class="jetpack-video-wrapper"><iframe loading="lazy" class="youtube-player" width="880" height="495" src="https://www.youtube.com/embed/Wv3Hmf2Dxlo?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent" allowfullscreen="true" style="border:0;" sandbox="allow-scripts allow-same-origin allow-popups allow-presentation"></iframe></div>
+<div class="jetpack-video-wrapper"><iframe class='youtube-player' width='880' height='495' src='https://www.youtube.com/embed/Wv3Hmf2Dxlo?version=3&#038;rel=1&#038;showsearch=0&#038;showinfo=1&#038;iv_load_policy=1&#038;fs=1&#038;hl=en-US&#038;autohide=2&#038;wmode=transparent' allowfullscreen='true' style='border:0;' sandbox='allow-scripts allow-same-origin allow-popups allow-presentation'></iframe></div>
 </div><figcaption>Many ways to &#8220;cut&#8221; between shots.</figcaption></figure>
 
 
@@ -288,10 +288,10 @@
 <p><a href="https://www.youtube.com/user/filmriot/featured" target="_blank" rel="noreferrer noopener">https://www.youtube.com/user/filmriot/featured</a></p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>https://cyxu.tv/wordpress_static/jimis-video-journalist-crash-course/feed/</wfw:commentRss>
+					<wfw:commentRss>/wordpress_static/jimis-video-journalist-crash-course/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
-		<post-id xmlns="com-wordpress:feed-additions:1">5236</post-id>	</item>
+			</item>
 	</channel>
 </rss>

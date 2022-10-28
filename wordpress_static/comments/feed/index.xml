@@ -12,14 +12,14 @@
 <channel>
 	<title>
 	Comments for Vision, Motion, Code	</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/</link>
+	<atom:link href="http://localhost/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/</link>
 	<description></description>
-	<lastBuildDate>Thu, 07 Jul 2022 18:01:37 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 28 Oct 2022 00:15:28 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
 </channel>
 </rss>

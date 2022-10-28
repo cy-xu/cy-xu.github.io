@@ -12,14 +12,14 @@
 <channel>
 	<title>
 	Comments on: What is MAT	</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/portfolio/what-is-mat/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/portfolio/what-is-mat/</link>
+	<atom:link href="http://localhost/portfolio/what-is-mat/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/portfolio/what-is-mat/</link>
 	<description></description>
 	<lastBuildDate>Tue, 05 Mar 2019 05:32:34 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
 </channel>
 </rss>

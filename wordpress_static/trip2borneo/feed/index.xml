@@ -12,14 +12,14 @@
 <channel>
 	<title>
 	Comments on: Trip2Borneo	</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/trip2borneo/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/trip2borneo/</link>
+	<atom:link href="http://localhost/trip2borneo/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/trip2borneo/</link>
 	<description></description>
 	<lastBuildDate>Thu, 02 Nov 2017 01:30:42 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
 </channel>
 </rss>

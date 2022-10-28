@@ -12,14 +12,14 @@
 <channel>
 	<title>
 	Comments on: Roof of the World	</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/portfolio/roof-of-the-world/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/portfolio/roof-of-the-world/</link>
+	<atom:link href="http://localhost/portfolio/roof-of-the-world/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/portfolio/roof-of-the-world/</link>
 	<description></description>
 	<lastBuildDate>Thu, 02 Nov 2017 07:34:25 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
 </channel>
 </rss>

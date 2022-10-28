@@ -12,14 +12,14 @@
 <channel>
 	<title>
 	Comments on: 146-Niuniu_1yr_old	</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/%E6%88%91%E5%AE%B6%E5%A6%9E%E5%A6%9E-our-niuniu/146-niuniu_1yr_old/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/%e6%88%91%e5%ae%b6%e5%a6%9e%e5%a6%9e-our-niuniu/146-niuniu_1yr_old/</link>
+	<atom:link href="http://localhost/%E6%88%91%E5%AE%B6%E5%A6%9E%E5%A6%9E-our-niuniu/146-niuniu_1yr_old/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/%e6%88%91%e5%ae%b6%e5%a6%9e%e5%a6%9e-our-niuniu/146-niuniu_1yr_old/</link>
 	<description></description>
 	<lastBuildDate>Sun, 15 Sep 2013 14:11:30 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
 </channel>
 </rss>

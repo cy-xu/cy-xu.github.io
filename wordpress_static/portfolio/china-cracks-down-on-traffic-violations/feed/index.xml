@@ -12,14 +12,14 @@
 <channel>
 	<title>
 	Comments on: China cracks down on traffic violations	</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/portfolio/china-cracks-down-on-traffic-violations/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/portfolio/china-cracks-down-on-traffic-violations/</link>
+	<atom:link href="http://localhost/portfolio/china-cracks-down-on-traffic-violations/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/portfolio/china-cracks-down-on-traffic-violations/</link>
 	<description></description>
 	<lastBuildDate>Mon, 07 Nov 2016 09:04:05 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
 </channel>
 </rss>

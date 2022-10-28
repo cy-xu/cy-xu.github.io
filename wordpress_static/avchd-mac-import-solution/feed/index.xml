@@ -12,14 +12,14 @@
 <channel>
 	<title>
 	Comments on: AVCHD Import to Mac Issues and Solution	</title>
-	<atom:link href="https://cyxu.tv/wordpress_static/avchd-mac-import-solution/feed/" rel="self" type="application/rss+xml" />
-	<link>https://cyxu.tv/wordpress_static/avchd-mac-import-solution/</link>
+	<atom:link href="http://localhost/avchd-mac-import-solution/feed/" rel="self" type="application/rss+xml" />
+	<link>/wordpress_static/avchd-mac-import-solution/</link>
 	<description></description>
 	<lastBuildDate>Tue, 18 Aug 2020 19:03:38 +0000</lastBuildDate>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.0.2</generator>
+	<generator>https://wordpress.org/?v=5.7.3</generator>
 </channel>
 </rss>
