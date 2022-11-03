@@ -14,8 +14,27 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-V2BCPR66BZ');
+
+    function prefix() {
+      return "cxu";
+    }
+
+    function email_click () {
+      let email = document.getElementById("email-click");
+      email.innerHTML = prefix() + "@ucsb.edu";
+    }
+
+    let explained = false;
+    function under_review() {
+      if (explained) {
+        return;
+      } else {
+        let text = document.getElementById("under-review");
+        text.innerHTML = text.innerHTML+" (Under review, please see recent work in CV)";
+        explained = true;
+      }
+    }
   </script>
 
 </head>
@@ -26,21 +45,22 @@
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
+            <td style="padding:2.5%;width:70%;vertical-align:middle">
               <p style="text-align:center">
                 <name>Chengyuan (CY) Xu</name>
               </p>
               <p>I'm a PhD candidate in <a href="https://www.mat.ucsb.edu/">Media Arts and Technology</a> and a master's student in <a href="https://www.cs.ucsb.edu/">Computer Science</a> at UC Santa Barbara, advised by Prof.&nbsp;<a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>.</p>
-              <p>My research focuses on improving the human-AI collaboration for domain experts who are not ML practitioners. I&nbsp;work with astronomers, marine scientists, data scientists, and artists to explore, design, and evaluate computer vision-powered systems with HCI methods.</p>
-              <p>Before I dived into convolutional neural networks (CNNs), I was a <a href="wordpress_static/index.html">video journalist</a> covering China for CNN and BBC.</p>
+              <p>I&nbsp;collaborated with astrophysicists to identity false <a href="#nature-astro">astronomical events</a> in their observations with <a href="#cosmic-conn">SOTA deep-learning models</a> and <a href="#cvpr-interactive">interactive tools</a>. I&nbsp;helped marine scientists count <a href="#trash-wheel">ocean-bound plastic wastes</a> intelligently. I&nbsp;experienced video annotators' tedious work to built <a id="under-review" onclick="under_review()">human-in-the-loop AI-assisted workflows</a> that makes their job easier.</p>
+              <p>The real-world problems and data I tackled are distinctive, but they all shared a common goal: to improve human-AI collaboration with domain experts' knowledge, computer vision, and interactive tools.</p>
+              <!-- <p>My research focuses on improving the human-AI collaboration for domain experts who are not ML practitioners. I&nbsp;work with astronomers, marine scientists, data scientists, and artists to explore, design, and evaluate computer vision-powered systems with HCI methods.</p> -->
               <p style="text-align:center">
-                <a href="mailto:cxu@ucsb.edu">Email</a> &nbsp/&nbsp
+                <a id="email-click" onclick="email_click()">Email</a> &nbsp/&nbsp
                 <a href="https://github.com/cy-xu/">Github</a> &nbsp/&nbsp
                 <a href="Chengyuan_CV.pdf">CV</a>
                 <!-- <a href="https://scholar.google.com/citations?hl=en&user=b0tkYB4AAAAJ">Google Scholar</a> -->
               </p>
             </td>
-            <td style="padding:2.5%;width:40%;max-width:40%;vertical-align:middle">
+            <td style="padding:2.5%;width:30%;max-width:30%;vertical-align:middle">
               <a><img style="width:100%;max-width:100%;border-radius:50%" alt="profile photo" src="images/winter-2.jpg" class="hoverZoomLink"></a>
             </td>
           </tr>
@@ -54,7 +74,7 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <tr>
+          <tr id="cvpr-interactive">
             <td style="padding:20px;width:25%;vertical-align:top">
               <!-- vertical-align:middle -->
               <div class="one">
@@ -87,7 +107,7 @@
             </td>
           </tr>
 
-          <tr>
+          <tr id="cosmic-conn">
             <td style="padding:20px;width:25%;vertical-align:top">
               <!-- vertical-align:middle -->
               <div class="one">
@@ -118,7 +138,7 @@
             </td>
           </tr>
 
-          <tr>
+          <tr id="nature-astro">
             <td style="padding:20px;width:25%;vertical-align:top">
               <!-- vertical-align:middle -->
               <!-- <div class="one" style="overflow:hidden;"> -->
@@ -145,7 +165,7 @@
             </td>
           </tr>
 
-          <tr>
+          <tr id="trash-wheel">
             <td style="padding:20px;width:25%;vertical-align:top">
               <!-- vertical-align:middle -->
               <div class="one">
@@ -204,6 +224,19 @@
               <p>motionLight is a playful interactive visual audio installation inspired by Jim Campbell’s low resolution artworks. It reads camera and microphone signals for lighting and motion changes to generate six modes of temporal and spatial interpolations.</p>
             </td>
           </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:top;">
+              <!-- vertical-align:middle -->
+              <div class="one">
+                <img src='images/camera_icon.png' width="100" style="display:block; margin-left: auto;margin-right:auto;">
+              </div>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:top">
+              <p>Before I dived into CNNs, I was a <a href="wordpress_static/index.html">video journalist</a> covering China for CNN and BBC.</p>
+            </td>
+          </tr>
+
 
         </tbody></table>
 
