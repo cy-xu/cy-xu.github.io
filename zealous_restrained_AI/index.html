@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- <meta name="robots" content="noindex"> -->
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <title>CHI 2023: Zealous and Restrained AI</title>
+</head>
+
+<body>
+  <div class="container">
+    <br>
+    <div style="text-align: center; margin-top: 20px;">  
+      <div style="max-width: 900px;">
+        <!-- <span style="margin-right: 10px; font-size: 1.3em;">CHI 2023</span> -->
+        <h3>ACM CHI 2023</h3>
+        <h2>Comparing Zealous and Restrained AI Recommendations in a Real-World Human-AI Collaboration Task</h2>
+      </div>
+      <div style="margin-top: 15px;">
+        <span style="margin-right: 15px; font-size: 1.3em;"><a href="https://cy-xu.github.io/" target="_blank">Chengyuan Xu<sup>1</sup></a></span>
+        <span style="margin-right: 15px; font-size: 1.3em;"><a href="https://scholar.google.com/citations?user=tAHEQ2YAAAAJ" target="_blank">Kuo-Chin Lien<sup>2</sup></a></span>
+        <span style="font-size: 1.3em;"><a href="https://sites.cs.ucsb.edu/~holl/" target="_blank">Tobias Höllerer<sup>1</sup></a></span>
+      </div>
+      <div style="margin-top: 15px;">
+        <!-- <img src="assets/UC_Santa_Barbara_Wordmark_Navy_RGB.png" class="img-fluid" alt="UCSB logo" height="20px" style="margin-right: 20px;"> -->
+        <sup>1 </sup><a href="https://ilab.cs.ucsb.edu/"><img src="assets/UC_Santa_Barbara_Wordmark_Navy_RGB.png" alt="UCSB logo" height="20px" style="margin-right: 20px;"></a>
+        <sup>2 </sup><a href="https://appen.com/"><img src="assets/Appen_Logo_Red_RGB.png" alt="Appen logo" height="30px"></a>
+      </div>
+      <!-- <div style="margin-top: 15px;">
+        <span style="margin-right: 20px; font-size: 1.2em;"><sup>1</sup>UC Santa Barbara</span>
+        <span style="margin-right: 20px; font-size: 1.2em;"><sup>2</sup>Appen</span>
+      </div> -->
+    </div>
+
+    <div class="text-center" style="font-size: 1.5em; margin-top: 25px;">
+      <a class="btn btn-primary btn-lg" href="" role="button" style="margin-right: 10px;">Paper</a>
+      <a class="btn btn-primary btn-lg" target="_blank" href="https://www.youtube.com/watch?v=bwlAhhpa00U" role="button"">Video</a>
+      <p style="font-size: medium;">We will release the paper and a full-length video soon!</p>
+    </div>
+
+    <div style="margin-top:30px;">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+          <img src="assets/fig_teaser.png" class="img-fluid" alt="teaser image">
+        <p class="text-justify" style="font-size: 1.0em; margin-top: 10px;">
+          Given two AIs that generate recommendations of similar performance (F1 score), a "zealous" AI would prioritize recall by giving more recommendations (in this study, face detections), even low-confidence ones. On the other hand, a "restrained" AI would only provide high-precision recommendations. Which AI can help the human teammate to annotate all faces in a video anonymization task in less time and with higher recall? Will collaboration with the two AIs affect user skills differently?
+        </p>
+        <p>We share our findings and suggestions from a large real-world user study on when to use "zealous" or "restrained" AIs to boost human-AI team performance or avoid hurting user skills.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:30px;">
+      <h2 class="text-center">
+        Preview Video [0:30]
+      </h2>
+      <div class="embed-responsive embed-responsive-16by9" style="margin-top: 30px;">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=bwlAhhpa00U" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div style="margin-top: 30px;">
+      <h2 class="text-center">
+        Abstract
+      </h2>
+      <!-- <p style="font-style: italic; margin-bottom: 5px;"> -->
+      <p style="margin-top: 30px;">
+        When designing an AI-assisted decision-making system, there is often a tradeoff between precision and recall in the AI's recommendations. We argue that careful exploitation of this tradeoff can harness the complementary strengths in the human-AI collaboration to significantly improve team performance. We investigate a real-world video anonymization task for which recall is paramount and more costly to improve. We analyze the performance of 78 professional annotators working with a) no AI assistance, b) a high-precision "restrained" AI, and c) a high-recall "zealous" AI in over 3,466 person-hours of annotation work. In comparison, the zealous AI helps human teammates achieve significantly shorter task completion time and higher recall. In a follow-up study, we remove AI assistance for everyone and find negative training effects on annotators trained with the restrained AI. These findings and our analysis point to important implications for the design of AI assistance in recall-demanding scenarios.
+      </p>
+      <p style="font-size: 1.2em; margin-top: 0px;">
+        <span style="font-weight: bold;">TL;DR:</span> Careful exploitation of the tradeoffs in AI precision and recall can harness the complementary strengths in the human-AI collaboration to significantly improve team performance. Naively pairing humans with an AI system designed for autonomous settings could potentially have a negative training effect on the users.
+      </p>
+    </div>
+
+
+    <!-- 
+    <div style="margin-top: 50px;">
+      <div class="text-center">
+        <h2>
+          Two questions
+        </h2>
+      </div>
+      <div style="margin-top: 30px; font-size: 1.2em;">
+        <p>
+          In order to capitalize on complementary strengths of humans and AI when presented with tradeoffs in AI precision and recall, we need to be able to answer two questions: 
+          <ol>
+            <li> For a given task, can we clearly identify if either precision or recall is more important than the other;</li>
+            <li> Independent of importance, is it vastly easier or harder for humans to improve either precision or recall.</li>
+          </ol>
+        </p>
+      </div>
+    </div> -->
+
+    <!-- <div style="margin-top:50px;">
+      <h2 class="text-center">
+        Results
+      </h2>
+      <h4>View Synthesis from 3 Input Views</h4>
+      <p>
+        While mip-NeRF leads to degenerate view synthesis and predicted scene geometry, our method enables realistic
+        view synthesis from 3 input views.
+      </p>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12 gallery">
+          <div class="embed-responsive embed-responsive-21by9">
+            <video controls loop muted autoplay class="embed-responsive-item">
+              <source src="gfx/room_videos/n3_text.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- <div>
+        <h2 class="text-center" style="margin-top: 30px;">
+          Citation
+        </h2>
+        <pre style="margin-top: 30px;">
+        @InProceedings{Niemeyer2021Regnerf,
+          author    = {Michael Niemeyer and Jonathan T. Barron and Ben Mildenhall and Mehdi S. M. Sajjadi and Andreas Geiger and Noha Radwan},  
+          title     = {RegNeRF: Regularizing Neural Radiance Fields for View Synthesis from Sparse Inputs},
+          booktitle = {Proc. IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+          year      = {2022},
+        }
+      </pre>
+      </div> -->
+
+      <!-- put some extra space at the bottom of the page -->
+      <div style="margin-top: 50px; margin-bottom: 100px; text-align: center;">
+        <a class="btn btn-primary btn-lg" target="_blank" href="https://cy-xu.github.io" role="button" style="margin-right: 10px;">Return</a>
+      </div>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+<style>
+  .container {
+    max-width: 1000px;
+  }
+
+  .row {
+    margin-top: 20px;
+  }
+</style>
+
+</html>
