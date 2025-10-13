@@ -17,12 +17,12 @@
     gtag('config', 'G-V2BCPR66BZ');
 
     function prefix() {
-      return "cxu";
+      return "hello.xu";
     }
 
     function email_click () {
       let email = document.getElementById("email-click");
-      email.innerHTML = prefix() + "@ucsb.edu";
+      email.innerHTML = prefix() + "@gmail.com";
     }
 
     let explained = false;
@@ -75,33 +75,81 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Tech Transfer</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr>
+            <td style="padding-left:20px;width:100%;vertical-align:top">
+              <a href="https://helpx.adobe.com/photoshop-express/using/apply-makeup.html">
+              <papertitle>2024 - Improved Facial Makeup in Photoshop Express</papertitle></a>
+              <br>
+              &#8226; Internship project shipped in a globally available Adobe product.
+            </td>
+          </tr>
+          
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:top">
+              <a href="https://blog.adobe.com/en/publish/2025/02/12/meet-firefly-video-model-ai-powered-creation-with-unparalleled-creative-control">
+              <papertitle>2024 - Adobe Firefly Video Foundation Model (Early 2025 update)</papertitle></a>
+              <br>
+              &#8226; Led efforts in flicker-free video decoding to unblock on-time product release.
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding-left:20px;width:100%;vertical-align:top">
+              <a href="https://blog.adobe.com/en/publish/2025/07/17/firefly-adds-new-video-capabilities-industry-leading-ai-models-generate-sound-effects-feature">
+              <papertitle>2025 - Adobe Firefly Video Foundation Model (Mid 2025 update)</papertitle></a>  
+              <br>
+              &#8226; Core contributor to foundation model experiments and training.
+            </td>  
+          </tr>  
+
+
+        </tbody></table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-          <!-- <tr id="ar-collaborative-intelligence">
+
+          <tr id="compslider">
             <td style="padding:20px;width:25%;vertical-align:top">
+              <!-- vertical-align:middle -->
               <div class="one">
-                <img src='images/ar-collaborative-intelligence.png' width="160" style="border: 1px solid grey">
+                <img src='images/compslider.png' width="160" style="border: 1px solid grey">
               </div>
             </td>
             <td style="padding:20px;width:75%;vertical-align:top">
-              <a href="https://youtu.be/WidQJr7Vz6E">
-              <papertitle>AR Collaborative Intelligence for 3D Understanding and Version Control</papertitle>
+              <a href="https://arxiv.org/abs/2509.01028">
+              <papertitle>CompSlider: Compositional Slider for Disentangled Multiple-Attribute Image Generation</papertitle>
               <br></a>
-              <strong>Chengyuan Xu,
-              <a href="https://www.radhakumaran.com/">Radha Kumaran</a></strong>,
-              <a href="https://noahstier.github.io">Noah Stier</a>,
-              <a href="https://scholar.google.com/citations?user=x1V3pcUAAAAJ&hl=zh-CN">Kangyou Yu</a>,
-              <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>
+              Zixin Zhu, Kevin Duarte, Mamshad Nayeem Rizve,
+              <strong>Chengyuan Xu,</strong>
+              Ratheesh Kalarot
+              <a href="https://cse.buffalo.edu/~jsyuan/">Junsong Yuan</a>,
               <br>
-              <a href="https://youtu.be/WidQJr7Vz6E">Demo video</a> (under non-anonymous review)
-              <p></p>
-              <p>We present an AR system that can (a) automatically parse and virtualize physical objects in the environments for content-dependent interaction, (b) perform spatial search in a physical room with natural-language queries, and (c) version-control 3D spaces to reveal objects that are missing or moved. The cross-platform (Magic Leap 2 and desktop) system can support the community for future AR human-AI collaboration research and applications.</p>
+              <em>IEEE ICCV 2025 (Oral Presentation)</em>
+              <br>
+              <a href="https://arxiv.org/abs/2509.01028">Preprint</a> / <a href="https://www.youtube.com/watch?v=m2Dvvf0P39o">Video</a>
+              <ul>
+                <li>Disentangled, simultaneous control of multiple image attributes in text-to-image generation</li>
+                <li>Novel disentanglement and structure losses for precise control while preserving image consistency</li>
+                <li>Extends fine-grained control to video generation</li>
+              </ul>
+              <!-- <p>We propose a and a novel interactive machine learning method to help AI better "understand" our physical world. The proposed spatially ware AI allows users to query physical spaces with natural language, such as "show me things that might be dangerous to babies" with the risk areas visualized in augmented reality, providing an immersive experience. The novel "in-situ" learning builds an intelligent object inventory that shows if objects are moved or missing on a later day, by teaching AI to identify unique physical objects. -->
+              </p>
             </td>
-          </tr> -->
+          </tr>
 
           <tr id="spatially-aware-ai">
             <td style="padding:20px;width:25%;vertical-align:top">
@@ -120,7 +168,7 @@
               <a href="https://scholar.google.com/citations?user=x1V3pcUAAAAJ&hl=zh-CN">Kangyou Yu</a>,
               <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>
               <br>
-              <em>I will present this work at the IEEE ISMAR 2024 conference this October in Seattle.</em>
+              <em>IEEE ISMAR 2024 (Oral Presentation)</em>
               <br>
               <a href="https://youtu.be/iNjjL3ddBRI">Demo video</a> / <a href="https://github.com/cy-xu/spatially_aware_AI">Code</a> / <a href="https://arxiv.org/abs/2410.04652">Preprint</a>
               <ul>
