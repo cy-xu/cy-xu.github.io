@@ -141,3 +141,30 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+/* Mobile optimizations - minimal changes for better mobile experience */
+@media screen and (max-width: 768px) {
+  /* Stack profile section vertically on mobile */
+  table tbody tr td {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Center profile image on mobile */
+  td img[alt="profile photo"] {
+    width: 50% !important;
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* Center name and links */
+  p[style*="text-align:center"] {
+    text-align: center !important;
+  }
+
+  /* Better spacing on mobile */
+  td[style*="padding:2.5%"] {
+    padding: 15px !important;
+  }
+}
