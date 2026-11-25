@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目概述
 
-这是 Chengyuan (CY) Xu 的个人学术网站,托管在 GitHub Pages 上(cyxu.tv)。网站展示研究成果、技术转让项目和过往工作经历。
+这是 Chengyuan (CY) Xu 的个人学术网站,托管在 GitHub Pages 上: https://cy-xu.github.io/ (旧域名 cyxu.tv 已于 2025 年放弃,不要再用)。网站展示研究成果、技术转让项目和过往工作经历。
 
 ## 网站架构
 
@@ -15,7 +15,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **zealous_restrained_AI/**: CHI 2023 论文的项目页面
 - **Chengyuan_CV.pdf**: 最新简历
 - **Chengyuan_CY_Xu_PhD_Dissertation.pdf**: 博士论文全文(63 MB)
-- **@CNAME**: 包含自定义域名 `cyxu.tv`
 
 ## 内容更新指南
 
@@ -66,7 +65,7 @@ Patents 在 "Patents" 分组里,每项一个标题 + 一行 `.patent-meta`(发�
 
 网站通过 GitHub Pages 自动部署:
 - Push 到 `main` 分支后自动更新
-- 使用自定义域名 `cyxu.tv` (通过 @CNAME 文件配置)
+- 网址就是 `https://cy-xu.github.io/`,不用 custom domain(repo 里没有 CNAME 文件)
 - 不需要构建步骤,纯静态 HTML
 
 ## 重要文件
