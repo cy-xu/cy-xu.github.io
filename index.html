@@ -1,11 +1,10 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-  <title>Chengyuan (CY) Xu</title>
-  
-  <meta name="author" content="CY Xu">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <meta name="author" content="CY Xu">
+  <title>Chengyuan (CY) Xu</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
   <!-- Google tag (gtag.js) -->
@@ -16,463 +15,297 @@
     gtag('js', new Date());
     gtag('config', 'G-V2BCPR66BZ');
 
+    // The address is assembled on click so it never appears in the page source for scrapers.
     function prefix() {
       return "hello.xu";
     }
 
-    function email_click () {
+    function email_click() {
       let email = document.getElementById("email-click");
       email.innerHTML = prefix() + "@gmail.com";
     }
-
-    let explained = false;
-    function under_review() {
-      if (explained) {
-        return;
-      } else {
-        let text = document.getElementById("under-review");
-        text.innerHTML = text.innerHTML+" (Under review, please see recent work in CV)";
-        explained = true;
-      }
-    }
   </script>
-
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:70%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Chengyuan (CY) Xu</name>
-              </p>
-              <p>I'm an Applied Scientist at <a href="https://www.primevideo.com/">Amazon Prime Video</a>, working on multimodal video understanding. Before that, I was a Senior Applied Scientist at <a href="https://firefly.adobe.com/">Adobe Firefly</a>, working on video and multimodal generative models. I received my Master's in <a href="https://www.cs.ucsb.edu/">Computer Science</a> and my PhD in <a href="https://www.mat.ucsb.edu/">Media Arts and Technology</a> at UC Santa Barbara, where I was advised by <a href="https://sites.cs.ucsb.edu/~holl">Prof. Tobias Höllerer</a> at the <a href="https://ilab.cs.ucsb.edu/">Four Eyes Lab</a>.</p>
+  <main class="page">
 
-              <p>I'm interested in multimodal foundation models, human-AI collaboration, computer vision, and their application to real-world data and problems.</p>
-              
-<!--               <p>My Ph.D. research focuses on Computer Vision, human-AI Collaboration, and their application to real-world data and problems. Our model and <a href="#cvpr-interactive">interactive tools</a> help astrophysicists <a href="#cosmic-conn">see the space clearer</a> and provide evidence for <a herf="nature-astro">significant findings</a>. We provide peer AI and HCI researchers with new knowledge that <a href="#chi-zealous-restrained-ai">informs the design of human-AI collaboration systems</a>.</p> -->
-<!--               <p>My Ph.D. research focuses on Computer Vision and Human-AI Collaboration, specifically their applications to real-world problems. Our models and <a href="#cvpr-interactive">interactive tools</a> help <a href="#cosmic-conn">astrophysicists see clearer into space</a>, supporting <a href="#nature-astro">significant discoveries</a>. We also helped marine scientists better understand river water composition, my peer AI and HCI researchers  insights to shaping the development of effective human-AI collaboration systems.</p> -->
-              
-              <!-- <p>The proliferation of real-world computer-vision applications has brought new challenges and research questions to the human-computer interaction community – we need to re-understand the dynamics between humans and modern AI-powered systems to improve the human-AI collaboration. As part of this effort, my Ph.D. research focuses on enhancing user efficiency or experience with AI-powered systems, including 1) working directly with scientists to build <a href="#cosmic-conn">task-specific datasets, models</a>, and <a href="#cvpr-interactive">interactive tools</a>, and 2) indirect efforts by producing knowledge that <a href="#chi-zealous-restrained-ai">informs the design of human-AI collaboration systems</a> for peer researchers.</p> -->
-              <!-- <p>I&nbsp;collaborated with astrophysicists to identity false <a href="#nature-astro">astronomical events</a> in their observations with <a href="#cosmic-conn">SOTA deep-learning models</a> and <a href="#cvpr-interactive">interactive tools</a>. I&nbsp;helped marine scientists count <a href="#trash-wheel">ocean-bound plastic wastes</a> intelligently. I&nbsp;experienced video annotators' tedious work and proposed <a href="#chi-zealous-restrained-ai">human-in-the-loop AI-assisted workflows</a> to make their job easier.</p> -->
-              <!-- <p>The real-world problems I tackled are distinctive, but they all shared a common goal: to improve human-AI collaboration with domain experts' knowledge, computer vision, and interactive tools.</p> -->
-              <!-- <p>My research focuses on improving the human-AI collaboration for domain experts who are not ML practitioners. I&nbsp;work with astronomers, marine scientists, data scientists, and artists to explore, design, and evaluate computer vision-powered systems with HCI methods.</p> -->
-              <p style="text-align:center">
-                <a id="email-click" onclick="email_click()">Email</a> &nbsp/&nbsp
-                <a href="https://github.com/cy-xu/">Github</a> &nbsp/&nbsp
-                <a href="Chengyuan_CV.pdf">CV</a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=8ly5hCYAAAAJ&hl=en">Google Scholar</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:30%;max-width:30%;vertical-align:middle">
-              <a><img style="width:100%;max-width:100%;border-radius:50%" alt="profile photo" src="images/duckduck.jpg" class="hoverZoomLink"></a>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Tech Transfer</heading>
-              <br>
-              <em>Adobe Firefly (2023–2026)</em>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <!-- ===================== Intro ===================== -->
+    <header class="intro">
+      <div class="intro-text">
+        <h1>Chengyuan (CY) Xu</h1>
+        <p>I'm an Applied Scientist at <a href="https://www.primevideo.com/">Amazon Prime Video</a>, working on multimodal video understanding. Before that, I was a Senior Applied Scientist at <a href="https://firefly.adobe.com/">Adobe Firefly</a>, working on video and multimodal generative models. I received my Master's in <a href="https://www.cs.ucsb.edu/">Computer Science</a> and my PhD in <a href="https://www.mat.ucsb.edu/">Media Arts and Technology</a> at UC Santa Barbara, where I was advised by <a href="https://sites.cs.ucsb.edu/~holl">Prof. Tobias Höllerer</a> at the <a href="https://ilab.cs.ucsb.edu/">Four Eyes Lab</a>.</p>
+        <p>I'm interested in multimodal foundation models, human-AI collaboration, computer vision, and their application to real-world data and problems.</p>
+        <!-- Earlier bio drafts:
+        <p>My Ph.D. research focuses on Computer Vision, human-AI Collaboration, and their application to real-world data and problems. Our model and interactive tools help astrophysicists see the space clearer and provide evidence for significant findings. We provide peer AI and HCI researchers with new knowledge that informs the design of human-AI collaboration systems.</p>
+        <p>My Ph.D. research focuses on Computer Vision and Human-AI Collaboration, specifically their applications to real-world problems. Our models and interactive tools help astrophysicists see clearer into space, supporting significant discoveries. We also helped marine scientists better understand river water composition, my peer AI and HCI researchers insights to shaping the development of effective human-AI collaboration systems.</p>
+        <p>The proliferation of real-world computer-vision applications has brought new challenges and research questions to the human-computer interaction community – we need to re-understand the dynamics between humans and modern AI-powered systems to improve the human-AI collaboration. As part of this effort, my Ph.D. research focuses on enhancing user efficiency or experience with AI-powered systems, including 1) working directly with scientists to build task-specific datasets, models, and interactive tools, and 2) indirect efforts by producing knowledge that informs the design of human-AI collaboration systems for peer researchers.</p>
+        <p>I collaborated with astrophysicists to identity false astronomical events in their observations with SOTA deep-learning models and interactive tools. I helped marine scientists count ocean-bound plastic wastes intelligently. I experienced video annotators' tedious work and proposed human-in-the-loop AI-assisted workflows to make their job easier.</p>
+        <p>The real-world problems I tackled are distinctive, but they all shared a common goal: to improve human-AI collaboration with domain experts' knowledge, computer vision, and interactive tools.</p>
+        <p>My research focuses on improving the human-AI collaboration for domain experts who are not ML practitioners. I work with astronomers, marine scientists, data scientists, and artists to explore, design, and evaluate computer vision-powered systems with HCI methods.</p>
+        -->
+        <p class="contact">
+          <a id="email-click" onclick="email_click()">Email</a><span class="sep">/</span><a href="https://github.com/cy-xu/">Github</a><span class="sep">/</span><a href="Chengyuan_CV.pdf">CV</a><span class="sep">/</span><a href="https://scholar.google.com/citations?user=8ly5hCYAAAAJ&hl=en">Google Scholar</a>
+        </p>
+      </div>
+      <img class="avatar" src="images/duckduck.jpg" alt="profile photo">
+    </header>
 
-          <tr>
-            <td style="padding-left:20px;width:100%;vertical-align:top">
-              <papertitle>2026 - VLM and LLM</papertitle>
-              <br>
-              &#8226; Developed in-house VLM models to improve training-data and inference quality.
-              <br>
-              &#8226; Built agentic, self-improving workflows for inference-time prompt rewriting and evaluation.
-            </td>
-          </tr>
+    <!-- ===================== Tech Transfer ===================== -->
+    <!-- To add an item: copy one .tt-item block; link the title if there is a public page. -->
+    <section id="tech-transfer">
+      <h2>Tech Transfer</h2>
 
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:top">
-              <papertitle>2025 - VLM-based video data pipeline</papertitle>
-              <br>
-              &#8226; Designed Firefly's in-house video data understanding pipeline from 0 to 1, cutting training-data preparation for 100M+ videos from months to days.
-            </td>
-          </tr>
+      <div class="tt-group"><span class="tt-group-name">Adobe Firefly</span><span class="tt-group-years">2023–2026</span></div>
 
-          <tr>
-            <td style="padding-left:20px;width:100%;vertical-align:top">
-              <a href="https://blog.adobe.com/en/publish/2025/07/17/firefly-adds-new-video-capabilities-industry-leading-ai-models-generate-sound-effects-feature">
-              <papertitle>2025 - Adobe Firefly multimodal foundation model</papertitle></a>
-              <br>
-              &#8226; Core contributor. Data processing, ablation, mid-training, and inference-time optimization for Adobe's multimodal diffusion foundation model.
-            </td>
-          </tr>
+      <div class="tt-item">
+        <div class="tt-year">2026</div>
+        <div>
+          <div class="tt-title">VLM and LLM</div>
+          <ul>
+            <li>Developed in-house VLM models to improve training-data and inference quality.</li>
+            <li>Built agentic, self-improving workflows for inference-time prompt rewriting and evaluation.</li>
+          </ul>
+        </div>
+      </div>
 
-          <tr>
-            <td style="padding:20px;width:100%;vertical-align:top">
-              <a href="https://blog.adobe.com/en/publish/2025/02/12/meet-firefly-video-model-ai-powered-creation-with-unparalleled-creative-control">
-              <papertitle>2024 - Adobe Firefly video model training</papertitle></a>
-              <br>
-              &#8226; Core contributor to Firefly's first video diffusion model for public beta. Designed a <a href="https://patents.google.com/patent/US20260237029A1/en">flickering-free video decoder</a> that unblocked the first public beta release.
-            </td>
-          </tr>
+      <div class="tt-item">
+        <div class="tt-year">2025</div>
+        <div>
+          <div class="tt-title">VLM-based video data pipeline</div>
+          <ul>
+            <li>Designed Firefly's in-house video data understanding pipeline from 0 to 1, cutting training-data preparation for 100M+ videos from months to days.</li>
+          </ul>
+        </div>
+      </div>
 
-          <tr>
-            <td style="padding-left:20px;width:100%;vertical-align:top">
-              <a href="https://helpx.adobe.com/photoshop-express/using/apply-makeup.html">
-              <papertitle>2023 - Facial Makeup Model in Photoshop Express</papertitle></a>
-              <br>
-              &#8226; Trained a GAN-based facial editing model, shipped worldwide in Photoshop Express.
-            </td>
-          </tr>
+      <!-- same year as the item above, so the year is left blank -->
+      <div class="tt-item">
+        <div class="tt-year"></div>
+        <div>
+          <a class="tt-title" href="https://blog.adobe.com/en/publish/2025/07/17/firefly-adds-new-video-capabilities-industry-leading-ai-models-generate-sound-effects-feature">Adobe Firefly multimodal foundation model</a>
+          <ul>
+            <li>Core contributor. Data processing, ablation, mid-training, and inference-time optimization for Adobe's multimodal diffusion foundation model.</li>
+          </ul>
+        </div>
+      </div>
 
-          <tr id="patents">
-            <td style="padding:20px;width:100%;vertical-align:top;text-align:left">
-              <papertitle>Patents</papertitle>
-              <br>
-              &#8226; <a href="https://patents.google.com/patent/US20260237029A1/en">Flickering-free video decoder</a>. Ratheesh Kalarot, Mamshad Nayeem Rizve, <strong>Chengyuan Xu</strong>. US 2026/0237029 A1, 2026.
-              <br>
-              &#8226; <a href="https://patents.google.com/patent/US20260170722A1/en">Controllable video and image generation with sliders</a>. Zixin Zhu, Ratheesh Kalarot, Mamshad Nayeem Rizve, Kevin Duarte, <strong>Chengyuan Xu</strong>. US 2026/0170722 A1, 2026. See <a href="#compslider">CompSlider</a>.
-            </td>
-          </tr>
+      <div class="tt-item">
+        <div class="tt-year">2024</div>
+        <div>
+          <a class="tt-title" href="https://blog.adobe.com/en/publish/2025/02/12/meet-firefly-video-model-ai-powered-creation-with-unparalleled-creative-control">Adobe Firefly video model training</a>
+          <ul>
+            <li>Core contributor to Firefly's first video diffusion model for public beta. Designed a <a href="https://patents.google.com/patent/US20260237029A1/en">flickering-free video decoder</a> that unblocked the first public beta release.</li>
+          </ul>
+        </div>
+      </div>
 
+      <div class="tt-item">
+        <div class="tt-year">2023</div>
+        <div>
+          <a class="tt-title" href="https://helpx.adobe.com/photoshop-express/using/apply-makeup.html">Facial Makeup Model in Photoshop Express</a>
+          <ul>
+            <li>Trained a GAN-based facial editing model, shipped worldwide in Photoshop Express.</li>
+          </ul>
+        </div>
+      </div>
 
-        </tbody></table>
+      <!-- Only published patents go here; pending applications stay off the public site. -->
+      <div class="tt-group" id="patents"><span class="tt-group-name">Patents</span><span class="tt-group-years">Adobe Inc.</span></div>
 
+      <div class="tt-item">
+        <div class="tt-year">2026</div>
+        <div>
+          <a class="tt-title" href="https://patents.google.com/patent/US20260237029A1/en">Flickering-free video decoder</a>
+          <div class="patent-meta">Ratheesh Kalarot, Mamshad Nayeem Rizve, <strong>Chengyuan Xu</strong><span class="sep">·</span><span class="nowrap">US 2026/0237029 A1</span></div>
+        </div>
+      </div>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Research</heading>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <div class="tt-item">
+        <div class="tt-year"></div>
+        <div>
+          <a class="tt-title" href="https://patents.google.com/patent/US20260170722A1/en">Controllable video and image generation with sliders</a>
+          <div class="patent-meta">Zixin Zhu, Ratheesh Kalarot, Mamshad Nayeem Rizve, Kevin Duarte, <strong>Chengyuan Xu</strong><span class="sep">·</span><span class="nowrap">US 2026/0170722 A1</span><span class="sep">·</span>see <a href="#compslider">CompSlider</a></div>
+        </div>
+      </div>
+    </section>
 
+    <!-- ===================== Research ===================== -->
+    <!--
+      Each entry is one <article class="pub">: .thumb (image), .pub-title, .pub-meta (authors, venue, links), .pub-body (bullets / description).
+      Add class="framed" to screenshots with a white background so they get a thin border.
+    -->
+    <section id="research">
+      <h2>Research</h2>
 
-          <tr id="compslider">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/compslider.png' width="160" style="border: 1px solid grey">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
-              <a href="https://arxiv.org/abs/2509.01028">
-              <papertitle>CompSlider: Compositional Slider for Disentangled Multiple-Attribute Image Generation</papertitle>
-              <br></a>
-              Zixin Zhu, Kevin Duarte, Mamshad Nayeem Rizve,
-              <strong>Chengyuan Xu,</strong>
-              Ratheesh Kalarot
-              <a href="https://cse.buffalo.edu/~jsyuan/">Junsong Yuan</a>,
-              <br>
-              <em>IEEE ICCV 2025 (Oral Presentation)</em>
-              <br>
-              <a href="https://arxiv.org/abs/2509.01028">Preprint</a> / <a href="https://www.youtube.com/watch?v=m2Dvvf0P39o">Video</a> / <a href="https://patents.google.com/patent/US20260170722A1/en">Patent</a>
-              <ul>
-                <li>Disentangled, simultaneous control of multiple image attributes in text-to-image generation</li>
-                <li>Novel disentanglement and structure losses for precise control while preserving image consistency</li>
-                <li>Extends fine-grained control to video generation</li>
-              </ul>
-              <!-- <p>We propose a and a novel interactive machine learning method to help AI better "understand" our physical world. The proposed spatially ware AI allows users to query physical spaces with natural language, such as "show me things that might be dangerous to babies" with the risk areas visualized in augmented reality, providing an immersive experience. The novel "in-situ" learning builds an intelligent object inventory that shows if objects are moved or missing on a later day, by teaching AI to identify unique physical objects. -->
-              </p>
-            </td>
-          </tr>
+      <article class="pub" id="compslider">
+        <div class="thumb"><img class="framed" src="images/compslider.png" alt="CompSlider"></div>
+        <a class="pub-title" href="https://arxiv.org/abs/2509.01028">CompSlider: Compositional Slider for Disentangled Multiple-Attribute Image Generation</a>
+        <div class="pub-meta">
+          Zixin Zhu, Kevin Duarte, Mamshad Nayeem Rizve, <strong>Chengyuan Xu</strong>, Ratheesh Kalarot, <a href="https://cse.buffalo.edu/~jsyuan/">Junsong Yuan</a>
+          <br><span class="venue">IEEE ICCV 2025 (Oral Presentation)</span>
+          <br><a href="https://arxiv.org/abs/2509.01028">Preprint</a> / <a href="https://www.youtube.com/watch?v=m2Dvvf0P39o">Video</a> / <a href="https://patents.google.com/patent/US20260170722A1/en">Patent</a>
+        </div>
+        <div class="pub-body">
+          <ul>
+            <li>Disentangled, simultaneous control of multiple image attributes in text-to-image generation</li>
+            <li>Novel disentanglement and structure losses for precise control while preserving image consistency</li>
+            <li>Extends fine-grained control to video generation</li>
+          </ul>
+        </div>
+      </article>
 
-          <tr id="spatially-aware-ai">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/spatially_aware_AI.png' width="160" style="border: 1px solid grey">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
-              <a href="https://arxiv.org/abs/2410.04652">
-              <papertitle>Multimodal 3D Fusion and In-Situ Learning for Spatially Aware AI</papertitle>
-              <br></a>
-              <strong>Chengyuan Xu,</strong>
-              <a href="https://www.radhakumaran.com/">Radha Kumaran</a>,
-              <a href="https://noahstier.github.io/">Noah Stier</a>,
-              <a href="https://scholar.google.com/citations?user=x1V3pcUAAAAJ&hl=zh-CN">Kangyou Yu</a>,
-              <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>
-              <br>
-              <em>IEEE ISMAR 2024 (Oral Presentation)</em>
-              <br>
-              <a href="https://youtu.be/iNjjL3ddBRI">Demo video</a> / <a href="https://github.com/cy-xu/spatially_aware_AI">Code</a> / <a href="https://arxiv.org/abs/2410.04652">Preprint</a>
-              <ul>
-                <li>A multimodal representation for <b>physical</b> objects</li>
-                <li>"In-situ" interactive learning to train AI on <b>physical</b> objects</li>
-                <li>Two real-world demo applications on Magic Leap 2</li>
-              </ul>
-              <!-- <p>We propose a and a novel interactive machine learning method to help AI better "understand" our physical world. The proposed spatially ware AI allows users to query physical spaces with natural language, such as "show me things that might be dangerous to babies" with the risk areas visualized in augmented reality, providing an immersive experience. The novel "in-situ" learning builds an intelligent object inventory that shows if objects are moved or missing on a later day, by teaching AI to identify unique physical objects. -->
-              </p>
-            </td>
-          </tr>
+      <article class="pub" id="spatially-aware-ai">
+        <div class="thumb"><img class="framed" src="images/spatially_aware_AI.png" alt="Spatially aware AI"></div>
+        <a class="pub-title" href="https://arxiv.org/abs/2410.04652">Multimodal 3D Fusion and In-Situ Learning for Spatially Aware AI</a>
+        <div class="pub-meta">
+          <strong>Chengyuan Xu</strong>, <a href="https://www.radhakumaran.com/">Radha Kumaran</a>, <a href="https://noahstier.github.io/">Noah Stier</a>, <a href="https://scholar.google.com/citations?user=x1V3pcUAAAAJ&hl=zh-CN">Kangyou Yu</a>, <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>
+          <br><span class="venue">IEEE ISMAR 2024 (Oral Presentation)</span>
+          <br><a href="https://youtu.be/iNjjL3ddBRI">Demo video</a> / <a href="https://github.com/cy-xu/spatially_aware_AI">Code</a> / <a href="https://arxiv.org/abs/2410.04652">Preprint</a>
+        </div>
+        <div class="pub-body">
+          <ul>
+            <li>A multimodal representation for <b>physical</b> objects</li>
+            <li>"In-situ" interactive learning to train AI on <b>physical</b> objects</li>
+            <li>Two real-world demo applications on Magic Leap 2</li>
+          </ul>
+        </div>
+      </article>
 
+      <article class="pub" id="dissertation">
+        <div class="thumb"><img src="images/firefly_dissertation.jpg" alt="PhD dissertation"></div>
+        <a class="pub-title" href="https://escholarship.org/uc/item/6g46n2g5">PhD Dissertation: Understanding and Facilitating Human-AI Teaming for Real-World Computer Vision Tasks</a>
+        <div class="pub-meta">
+          Committee: <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>, <a href="https://pixelmaid.github.io/personalweb/">Jennifer Jacobs</a>, <a href="https://www.mat.ucsb.edu/faculty/">Marko Peljhan</a>, <a href="https://orcid.org/0000-0001-5807-7893">Curtis McCully</a>
+          <br><a href="Chengyuan_CY_Xu_PhD_Dissertation.pdf">Download PDF (63 MB)</a>
+        </div>
+        <div class="pub-body">
+          <p>A fantastic journey thanks to the great company I’ve had along the way!</p>
+        </div>
+      </article>
 
-          <tr id="dissertation">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <div class="one">
-                <img src='images/firefly_dissertation.jpg' width="160">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://escholarship.org/uc/item/6g46n2g5">
-              <papertitle>PhD Dissertation: Understanding and Facilitating Human-AI Teaming for Real-World Computer Vision Tasks</papertitle>
-              <br></a>
-              Committee:
-              <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>,
-              <a href="https://pixelmaid.github.io/personalweb/">Jennifer Jacobs</a>,
-              <a href="https://www.mat.ucsb.edu/faculty/">Marko Peljhan</a>,
-              <a href="https://orcid.org/0000-0001-5807-7893">Curtis McCully</a>
-              <br>
-              <a href="Chengyuan_CY_Xu_PhD_Dissertation.pdf">Download PDF (63 MB)</a>
-              <p>A fantastic journey thanks to the great company I’ve had along the way!</p>
-            </td>
-          </tr>
+      <article class="pub" id="free-form-conversation">
+        <div class="thumb"><img class="framed" src="images/free-form-conversation.png" alt="Free-form conversation with avatars"></div>
+        <a class="pub-title" href="https://www.computer.org/csdl/proceedings-article/ismar/2023/283800a751/1SBIobsKA6c">Free-form Conversation with Human and Symbolic Avatars in Mixed Reality</a>
+        <div class="pub-meta">
+          <a href="https://www.linkedin.com/in/jiarui-jack-zhu-03ba891a3">Jiarui Zhu</a>, <a href="https://www.radhakumaran.com/">Radha Kumaran</a>, <strong>Chengyuan Xu</strong>, <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>
+          <br><span class="venue">IEEE ISMAR 2023 (Oral Presentation)</span>
+        </div>
+        <div class="pub-body">
+          <p>We found evidence that the use of virtual or augmented realities can influence conversation content. Users chatting with avatars in virtual reality made significantly more references to the location or the space, suggesting they tended to perceive conversations as occurring in the agent’s space, whereas the physical AR environment was perhaps more perceived as the user’s space. Conversations with the human avatar improve user recall of the conversation, even though there is no evidence of increased information extracted during the conversation.</p>
+        </div>
+      </article>
 
-          <tr id="free-form-conversation">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/free-form-conversation.png' width="160" style="border: 1px solid grey">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
-              <a href="https://www.computer.org/csdl/proceedings-article/ismar/2023/283800a751/1SBIobsKA6c">
-              <papertitle>Free-form Conversation with Human and Symbolic Avatars in Mixed Reality</papertitle>
-              <br></a>
-              <a href="https://www.linkedin.com/in/jiarui-jack-zhu-03ba891a3">Jiarui Zhu</a>,
-              <a href="https://www.radhakumaran.com/">Radha Kumaran</a>,
-              <strong>Chengyuan Xu,</strong>
-              <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>
-              <br>
-              <em>IEEE ISMAR 2023 (Oral Presentation)</em>
-              <p>We found evidence that the use of virtual or augmented realities can influence conversation content. Users chatting with avatars in virtual reality made significantly more references to the location or the space, suggesting they tended to perceive conversations as occurring in the agent’s space, whereas the physical AR environment was perhaps more perceived as the user’s space. Conversations with the human avatar improve user recall of the conversation, even though there is no evidence of increased information extracted during the conversation.</p>
-            </td>
-          </tr>
+      <article class="pub" id="open-babay-monitor">
+        <div class="thumb"><img class="framed" src="images/baby_monitor.jpg" alt="Open Baby Monitor"></div>
+        <a class="pub-title" href="https://github.com/cy-xu/open_baby_monitor">Open Baby Monitor</a>
+        <div class="pub-meta">
+          Open source, 2023. <a href="https://www.youtube.com/watch?v=y23ytcYdjw0">Short demo video.</a>
+        </div>
+        <div class="pub-body">
+          <p>My passion project as a new parent! Rather than buying more gear, why not repurpose old tech into a baby monitor that fits my needs? It's more than just a simple monitor - it detects the baby's movements, sends alerts, tracks the baby's sleep, and performs exceptionally in low-light conditions...</p>
+        </div>
+      </article>
 
-          <tr id="open-babay-monitor">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/baby_monitor.jpg' width="160" style="border: 1px solid grey">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:top">
-              <a href="https://github.com/cy-xu/open_baby_monitor">
-                <papertitle>Open Baby Monitor</papertitle>
-                <br></a>
-                Open source, 2023. 
-                <a href="https://www.youtube.com/watch?v=y23ytcYdjw0">Short demo video.</a>
-                <br>
-                <!-- <strong>Chengyuan Xu</strong> -->
-              <p>My passion project as a new parent! Rather than buying more gear, why not repurpose old tech into a baby monitor that fits my needs? It's more than just a simple monitor - it detects the baby's movements, sends alerts, tracks the baby's sleep, and performs exceptionally in low-light conditions...</p>
-            </td>
-          </tr>
+      <article class="pub" id="chi-zealous-restrained-ai">
+        <div class="thumb"><img class="framed" src="images/zealous_restrained.png" alt="Zealous and restrained AI"></div>
+        <a class="pub-title" href="./zealous_restrained_AI/">Comparing Zealous and Restrained AI Recommendations in a Real-World Human-AI Collaboration Task</a>
+        <div class="pub-meta">
+          <strong>Chengyuan Xu</strong>, <a href="https://scholar.google.com/citations?user=tAHEQ2YAAAAJ">Kuo-Chin Lien</a>, <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>
+          <br><span class="venue">ACM CHI 2023 (Oral Presentation)</span>
+          <br><a href="./zealous_restrained_AI/">project page</a>
+        </div>
+        <div class="pub-body">
+          <p>Careful exploitation of the tradeoffs in AI precision and recall can harness the complementary strengths in the human-AI collaboration to significantly improve team performance. Naively pairing humans with an AI system designed for autonomous settings could potentially have a negative training effect on the users.</p>
+        </div>
+      </article>
 
-          <tr id="chi-zealous-restrained-ai">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/zealous_restrained.png' width="160" style="border: 1px solid grey">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="./zealous_restrained_AI/">
-                <papertitle>Comparing Zealous and Restrained AI Recommendations in a Real-World Human-AI Collaboration Task</papertitle>
-                <br></a>
-              <strong>Chengyuan Xu</strong>,
-              <a href="https://scholar.google.com/citations?user=tAHEQ2YAAAAJ">Kuo-Chin Lien</a>,
-              <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>
-              <br>
-              <em>ACM CHI 2023 (Oral Presentation)</em>
-              <br>
-              <a href="./zealous_restrained_AI/">project page</a>
-              <p></p>
-              <p>Careful exploitation of the tradeoffs in AI precision and recall can harness the complementary strengths in the human-AI collaboration to significantly improve team performance. Naively pairing humans with an AI system designed for autonomous settings could potentially have a negative training effect on the users.</p>
-            </td>
-          </tr>
+      <article class="pub" id="cvpr-interactive">
+        <div class="thumb"><img class="framed" src="images/cosmic-conn_web_app_interface.png" alt="Interactive segmentation tool"></div>
+        <a class="pub-title" href="https://github.com/cy-xu/cosmic-conn#interactive-cr-mask-visualization-and-editing">Interactive Segmentation and Visualization for Tiny Objects in Multi-megapixel Images</a>
+        <div class="pub-meta">
+          <strong>Chengyuan Xu</strong>, <a href="https://imboning.com/">Boning Dong</a>, <a href="https://noahstier.github.io">Noah Stier</a>, <a href="https://lco.global/~cmccully/">Curtis McCully</a>, <a href="http://www.dahowell.com/">D. Andrew Howell</a>, <a href="https://web.ece.ucsb.edu/~psen/">Pradeep Sen</a>, <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>
+          <br><span class="venue">CVPR 2022, demo track.</span>
+          <br><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Xu_Interactive_Segmentation_and_Visualization_for_Tiny_Objects_in_Multi-Megapixel_Images_CVPR_2022_paper.html">paper</a> / <a href="https://user-images.githubusercontent.com/24612082/174725216-8df9b89b-d5b2-483d-8cf7-d7c660302aeb.png">poster</a> / <a href="https://arxiv.org/abs/2204.10356">arXiv</a> / <a href="https://github.com/cy-xu/cosmic-conn#interactive-cr-mask-visualization-and-editing">code</a>
+        </div>
+        <div class="pub-body">
+          <p>An open-source software toolkit for identifying, inspecting, and editing tiny objects in multi-megapixel HDR images. These tools offer streamlined workflows for analyzing scientific images across many disciplines, such as astronomy, remote sensing, and biomedicine.</p>
+        </div>
+      </article>
 
-          <tr id="cvpr-interactive">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/cosmic-conn_web_app_interface.png' width="160" style="border: 1px solid grey">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://github.com/cy-xu/cosmic-conn#interactive-cr-mask-visualization-and-editing">
-                <papertitle>Interactive Segmentation and Visualization for Tiny Objects in Multi-megapixel Images</papertitle>
-                <br></a>
-              <strong>Chengyuan Xu</strong>,
-              <a href="https://imboning.com/">Boning Dong</a>,
-              <a href="https://noahstier.github.io">Noah Stier</a>,
-              <a href="https://lco.global/~cmccully/">Curtis McCully</a>,
-              <a href="http://www.dahowell.com/">D. Andrew Howell</a>,
-              <a href="https://web.ece.ucsb.edu/~psen/">Pradeep Sen</a>,
-              <a href="https://sites.cs.ucsb.edu/~holl">Tobias Höllerer</a>
-              <br>
-              <em>CVPR 2022, demo track. </em>
-              <br>
-              <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Xu_Interactive_Segmentation_and_Visualization_for_Tiny_Objects_in_Multi-Megapixel_Images_CVPR_2022_paper.html">paper</a>
-              /
-              <a href="https://user-images.githubusercontent.com/24612082/174725216-8df9b89b-d5b2-483d-8cf7-d7c660302aeb.png">poster</a>
-              /
-              <a href="https://arxiv.org/abs/2204.10356">arXiv</a>
-              /
-              <a href="https://github.com/cy-xu/cosmic-conn#interactive-cr-mask-visualization-and-editing">code</a>
-              <p></p>
-              <p>An open-source software toolkit for identifying, inspecting, and editing tiny objects in multi-megapixel HDR images. These tools offer streamlined workflows for analyzing scientific images across many disciplines, such as astronomy, remote sensing, and biomedicine.</p>
-            </td>
-          </tr>
+      <article class="pub" id="cosmic-conn">
+        <div class="thumb"><img src="images/cosmic-conn-median-weighted-loss-function.png" alt="Cosmic-CoNN"></div>
+        <a class="pub-title" href="https://github.com/cy-xu/cosmic-conn">Cosmic-CoNN: A Cosmic-Ray Detection Deep-learning Framework, Data Set, and Toolkit</a>
+        <div class="pub-meta">
+          <strong>Chengyuan Xu</strong>, <a href="https://lco.global/~cmccully/">Curtis McCully</a>, <a href="https://imboning.com/">Boning Dong</a>, <a href="http://www.dahowell.com/">D. Andrew Howell</a>, <a href="https://web.ece.ucsb.edu/~psen/">Pradeep Sen</a>
+          <br><span class="venue">The Astrophysical Journal</span>
+          <br><span class="venue">240th Meeting of the American Astronomical Society (Oral Presentation)</span>
+          <br><a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac9d91/meta">paper</a> / <a href="https://github.com/cy-xu/cosmic-conn">code</a> / <a href="https://zenodo.org/record/5034763">dataset</a>
+        </div>
+        <div class="pub-body">
+          <p>Cosmic-CoNN is a generic deep-learning cosmic ray (CR) detector deployed at Las Cumbres Observatory's 24 telescopes around the world. We built a large and diverse ground-based CR dataset and proposed a novel loss function and a neural network optimized for telescope imaging data to train generic CR detection models. Our model achieves a high precision on Las Cumbres imaging data and maintains a consistent performance on new ground-based instruments never used for training.</p>
+        </div>
+      </article>
 
-          <tr id="cosmic-conn">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/cosmic-conn-median-weighted-loss-function.png' width="160">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://github.com/cy-xu/cosmic-conn">
-                <papertitle>Cosmic-ConNN: A Cosmic Ray
-                  Detection Deep Learning Framework, Dataset, and Toolbox</papertitle>
-                <br></a>
-              <strong>Chengyuan Xu</strong>,
-              <a href="https://lco.global/~cmccully/">Curtis McCully</a>,
-              <a href="https://imboning.com/">Boning Dong</a>,
-              <a href="http://www.dahowell.com/">D. Andrew Howell</a>,
-              <a href="https://web.ece.ucsb.edu/~psen/">Pradeep Sen</a>
-              <br>
-              <em>The Astrophysical Journal</em><br>
-              <em>240th Meeting of the American Astronomical Society (Oral Presentation)</em> 
-              <br>
-              <a href="https://iopscience.iop.org/article/10.3847/1538-4357/ac9d91/meta">paper</a>
-              /
-              <a href="https://github.com/cy-xu/cosmic-conn">code</a>
-              /
-              <a href="https://zenodo.org/record/5034763">dataset</a>
-              <p></p>
-              <p>Cosmic-CoNN is a generic deep-learning cosmic ray (CR) detector deployed at Las Cumbres Observatory's 24 telescopes around the world. We built a large and diverse ground-based CR dataset and proposed a novel loss function and a neural network optimized for telescope imaging data to train generic CR detection models. Our model achieves a high precision on Las Cumbres imaging data and maintains a consistent performance on new ground-based instruments never used for training.</p>
-            </td>
-          </tr>
+      <article class="pub" id="nature-astro">
+        <div class="thumb"><a href="https://www.nature.com/natastron/volumes/5/issues/9"><img src="images/issue-9-cover-story.png" alt="Nature Astronomy cover"></a></div>
+        <a class="pub-title" href="https://www.nature.com/articles/s41550-021-01384-2">The electron capture origin of supernova 2018zd</a>
+        <div class="pub-meta">
+          <a href="https://www.news.ucsb.edu/2021/020338/goldilocks-supernova">Daichi Hiramatsu</a>, et al., including <strong>Chengyuan Xu</strong>
+          <br><span class="venue">Nature Astronomy <a href="https://www.nature.com/natastron/volumes/5/issues/9">(Cover Story)</a></span>
+          <br><a href="https://www.nature.com/articles/s41550-021-01384-2">paper</a> / <a href="https://arxiv.org/abs/2011.02176">arXiv</a>
+        </div>
+        <div class="pub-body">
+          <p>A worldwide team led by scientists at Las Cumbres Observatory has discovered the first convincing evidence for a new type of stellar explosion -- an electron-capture supernova. While they have been theorized for 40 years, real-world examples have been elusive. I had the pleasure to provide supplementary evidence to help rule out the presence of cosmic-ray hits at or around the progenitor site to contribute to closing the 40-year-old theoretical loop.</p>
+        </div>
+      </article>
 
-          <tr id="nature-astro">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <!-- <div class="one" style="overflow:hidden;"> -->
-              <div class="one">
-                <a href="https://www.nature.com/natastron/volumes/5/issues/9"><img src='images/issue-9-cover-story.png' width="160"></a>
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://www.nature.com/articles/s41550-021-01384-2">
-                <papertitle>The electron capture origin of supernova 2018zd</papertitle>
-                <br></a>
-              <a href="https://www.news.ucsb.edu/2021/020338/goldilocks-supernova">Daichi Hiramatsu</a>,
-              et al., including <strong>Chengyuan Xu</strong>
-              <br>
-              <em>Nature Astronomy <a href="https://www.nature.com/natastron/volumes/5/issues/9">(Cover Story)</a></em>
-              <br>
-              <a href="https://www.nature.com/articles/s41550-021-01384-2">paper</a>
-              /
-              <a href="https://arxiv.org/abs/2011.02176">arXiv</a>
-              <p></p>
-              <p>A worldwide team led by scientists at Las Cumbres Observatory has discovered the first convincing evidence for a new type of stellar explosion -- an electron-capture supernova. While they have been theorized for 40 years, real-world examples have been elusive. I had the pleasure to provide supplementary evidence to help rule out the presence of cosmic-ray hits at or around the progenitor site to contribute to closing the 40-year-old theoretical loop.</p>
-            </td>
-          </tr>
+      <article class="pub" id="trash-wheel">
+        <div class="thumb"><img src="images/mr_trash_wheel.jpg" alt="Baltimore Trash Wheel"></div>
+        <a class="pub-title" href="https://cleancurrentscoalition.org/coalition-projects/">BOI Baltimore Trash Wheel Computer Vision Model and Dataset</a>
+        <div class="pub-meta">
+          <strong>Chengyuan Xu</strong>, <a href="https://boi.ucsb.edu/staff">Molly Morse, Chris Lang, Ari Olivelli, Aaron Roan, et al.</a>
+          <br>dataset and <a href="images/github-BenioffOceanInitiative-cccBaltimoreTrashWheelML.pdf">code</a> pending release
+        </div>
+        <div class="pub-body">
+          <p>We produced a new dataset and a detection model to identify 15 types of ocean-bound river wastes like plastic bottles or bags, foam fragments, and other inorganic wastes in complex trash wheel images. The project aims to support more efficient and more accurate data collection for a greater understanding of the types and sources of river waste and to ultimately turn off the tap of plastic and other solid waste pollution into the ocean.</p>
+        </div>
+      </article>
 
-          <tr id="trash-wheel">
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/mr_trash_wheel.jpg' width="160">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://cleancurrentscoalition.org/coalition-projects/">
-                <papertitle>BOI Baltimore Trash Wheel Computer Vision Model and Dataset</papertitle>
-                <br></a>
-              <strong>Chengyuan Xu</strong>,
-              <a href="https://boi.ucsb.edu/staff">Molly Morse, Chris Lang, Ari Olivelli, Aaron Roan, et al.</a>
-              <br>
-              dataset and <a href="images/github-BenioffOceanInitiative-cccBaltimoreTrashWheelML.pdf">code</a> pending release
-              <p></p>
-              <p>We produced a new dataset and a detection model to identify 15 types of ocean-bound river wastes like plastic bottles or bags, foam fragments, and other inorganic wastes in complex trash wheel images. The project aims to support more efficient and more accurate data collection for a greater understanding of the types and sources of river waste and to ultimately turn off the tap of plastic and other solid waste pollution into the ocean.</p>
-            </td>
-          </tr>
+      <article class="pub" id="video-style-transfer">
+        <div class="thumb"><img src="images/style-transfer-gif.gif" alt="Coherent video style transfer"></div>
+        <a class="pub-title" href="https://youtu.be/nQ_itjCBEAs">Coherent Video Style Transfer</a>
+        <div class="pub-meta">
+          <strong>Chengyuan Xu</strong>, Ekta Prashnani, Pradeep Sen
+          <br><a href="https://youtu.be/nQ_itjCBEAs">demo</a>
+        </div>
+        <div class="pub-body">
+          <p>We propose a novel generative adversarial network (GAN) architecture to achieve spatially and temporally coherent video style transfers. Started in 2018, this work was one of the first deep learning-based methods for video style transfers.</p>
+        </div>
+      </article>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/style-transfer-gif.gif' width="160">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://youtu.be/nQ_itjCBEAs">
-                <papertitle>Coherent Video Style Transfer</papertitle>
-                <br></a>
-                <strong>Chengyuan Xu</strong>, Ekta Prashnani, Pradeep Sen
-              <br>
-              <a href="https://youtu.be/nQ_itjCBEAs">demo</a>
-              <p></p>
-              <p>We propose a novel generative adversarial network (GAN) architecture to achieve spatially and temporally coherent video style transfers. Started in 2018, this work was one of the first deep learning-based methods for video style transfers.</p>
-            </td>
-          </tr>
+      <article class="pub" id="motionlight">
+        <div class="thumb"><img src="images/motionLight_5.jpg" alt="motionLight installation"></div>
+        <a class="pub-title" href="https://www.youtube.com/watch?v=OAWRhbDooVY&ab_channel=CYXu">motionLight, an interactive installation</a>
+        <div class="pub-meta">
+          <strong>Chengyuan Xu</strong>
+          <br><a href="https://www.youtube.com/watch?v=OAWRhbDooVY&ab_channel=CYXu">demo</a> / <a href="https://github.com/cy-xu/motionLight">code</a>
+        </div>
+        <div class="pub-body">
+          <p>motionLight is a playful interactive visual audio installation inspired by Jim Campbell’s low resolution artworks. It reads camera and microphone signals for lighting and motion changes to generate six modes of temporal and spatial interpolations.</p>
+        </div>
+      </article>
 
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:top">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/motionLight_5.jpg' width="160">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://www.youtube.com/watch?v=OAWRhbDooVY&ab_channel=CYXu">
-                <papertitle>motionLight, an interactive installation</papertitle>
-                <br></a>
-              Chengyuan Xu
-              <br>
-              <a href="https://www.youtube.com/watch?v=OAWRhbDooVY&ab_channel=CYXu">demo</a>
-              /
-              <a href="https://github.com/cy-xu/motionLight">code</a>
-              <p></p>
-              <p>motionLight is a playful interactive visual audio installation inspired by Jim Campbell’s low resolution artworks. It reads camera and microphone signals for lighting and motion changes to generate six modes of temporal and spatial interpolations.</p>
-            </td>
-          </tr>
+      <!-- No title here: the sentence sits in the title slot so it lines up with the photo on phones too. -->
+      <article class="pub" id="cameraman">
+        <div class="thumb"><img src="images/2015.jpg" alt="Working as a cameraman, 2015"></div>
+        <p class="pub-title pub-note">Before I dived into convolutional neural networks (CNNs), I was a <a href="wordpress_static/index.html">cameraman</a> covering China for CNN and BBC.</p>
+      </article>
+    </section>
 
-          <tr id="cameraman">
-            <td style="padding:20px;width:25%;vertical-align:top;">
-              <!-- vertical-align:middle -->
-              <div class="one">
-                <img src='images/2015.jpg' width="160" style="display:block; margin-left: auto;margin-right:auto;">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <p>Before I dived into convolutional neural networks (CNNs), I was a <a href="wordpress_static/index.html">cameraman</a> covering China for CNN and BBC.</p>
-            </td>
-          </tr>
-
-
-        </tbody></table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:right;font-size:small;">
-                Website source code from <a href="https://github.com/jonbarron/website">Jon Barron</a>.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-      </td>
-    </tr>
-  </table>
+    <footer>
+      Website source code from <a href="https://github.com/jonbarron/website">Jon Barron</a>.
+    </footer>
+  </main>
 </body>
-
 </html>

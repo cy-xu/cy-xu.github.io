@@ -21,48 +21,46 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ### 添加新研究项目
 
-在 `index.html` 的研究部分(id="Research")添加新的表格行:
+在 `index.html` 的 `<section id="research">` 里复制一个 `<article class="pub">`:
 
 ```html
-<tr id="project-id">
-  <td style="padding:20px;width:25%;vertical-align:top">
-    <div class="one">
-      <img src='images/project-image.png' width="160" style="border: 1px solid grey">
-    </div>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="project-url">
-      <papertitle>项目标题</papertitle>
-    </a>
-    <br>
-    作者列表
-    <br>
-    <em>会议/期刊名称</em>
-    <br>
-    <a href="link1">链接1</a> / <a href="link2">链接2</a>
-    <ul>
-      <li>项目亮点</li>
-    </ul>
+<article class="pub" id="project-id">
+  <div class="thumb"><img class="framed" src="images/project-image.png" alt="Short description"></div>
+  <a class="pub-title" href="project-url">项目标题</a>
+  <div class="pub-meta">
+    作者列表(自己用 <strong>Chengyuan Xu</strong>)
+    <br><span class="venue">会议/期刊名称</span>
+    <br><a href="link1">链接1</a> / <a href="link2">链接2</a>
+  </div>
+  <div class="pub-body">
+    <ul><li>项目亮点</li></ul>
     <p>项目描述</p>
-  </td>
-</tr>
+  </div>
+</article>
 ```
+
+- 白底截图加 `class="framed"`(细边框),照片/封面不加
+- 桌面:左边 160px 缩略图;手机(<640px):88px 缩略图在标题旁边,作者和正文占满宽度
 
 ### 添加技术转让项目
 
-在"Tech Transfer"部分添加新行,格式保持简洁:
+在 `<section id="tech-transfer">` 里,每个公司/类别先放一个分组标签,下面是 `.tt-item`(有公开页面就把标题换成 `<a class="tt-title" href="...">`;和上一项同一年就把 `tt-year` 留空):
 
 ```html
-<tr>
-  <td style="padding-left:20px;width:100%;vertical-align:top">
-    <a href="product-link">
-      <papertitle>年份 - 项目名称</papertitle>
-    </a>
-    <br>
-    &#8226; 简要描述
-  </td>
-</tr>
+<div class="tt-group"><span class="tt-group-name">Adobe Firefly</span><span class="tt-group-years">2023–2026</span></div>
+
+<div class="tt-item">
+  <div class="tt-year">年份</div>
+  <div>
+    <div class="tt-title">项目名称</div>
+    <ul>
+      <li>简要描述</li>
+    </ul>
+  </div>
+</div>
 ```
+
+Patents 在 "Patents" 分组里,每项一个标题 + 一行 `.patent-meta`(发明人 · 公开号,公开号包在 `<span class="nowrap">` 里)。
 
 ## 部署
 
@@ -80,8 +78,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 样式约定
 
-- 使用表格布局实现响应式设计
+- Semantic HTML + CSS grid(不用 table 布局),手机断点 640px
 - 所有外部链接使用 `<a>` 标签
-- 项目标题使用 `<papertitle>` 标签
-- 章节标题使用 `<heading>` 标签
+- 章节标题 `<h2>`,项目标题 `.pub-title` / `.tt-title`
+- 正文左对齐(不用 justify,窄屏会拉开字距)
 - 主要内容区域最大宽度 800px
